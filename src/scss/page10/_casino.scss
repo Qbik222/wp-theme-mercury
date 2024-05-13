@@ -74,7 +74,7 @@
     }
 
     &-title {
-      font-family: $font-popins-semb;
+      font-family: var(--font-title);
       font-size: 22px;
       line-height: 33px;
       color: $black;
@@ -135,7 +135,7 @@
 
       &-text {
         color: $black;
-        font-family: $font-popins-semb;
+        font-family: var(--font-title);
       }
     }
 

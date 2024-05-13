@@ -4,7 +4,7 @@
 
   &__all-link{
     display: inline-block;
-    font-family: $font-popins-semb;
+    font-family: var(--font-title);
     font-size: 17px;
     line-height: 20px;
     letter-spacing: 0.02em;
@@ -52,7 +52,7 @@
     }
 
     &-btn {
-      font-family: $font-popins-semb;
+      font-family: var(--font-title);
       position: relative;
       display: inline-block;
       padding: 9px 0;
@@ -185,7 +185,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        font-family: $font-popins-semb;
+        font-family: var(--font-title);
         background: $green;
         border-radius: 8px 0 8px 0;
         width: 28px;
@@ -208,7 +208,7 @@
     }
 
     &-title {
-      font-family: $font-popins-semb;
+      font-family: var(--font-title);
       font-size: 20px;
       line-height: 20px;
       letter-spacing: -0.004em;
@@ -348,7 +348,7 @@
       flex-direction: column;
       align-items: center;
       &-title {
-        font-family: $font-popins-semb;
+        font-family: var(--font-title);
         font-size: 15px;
         line-height: 18px;
         color: $black;
@@ -356,7 +356,7 @@
       }
 
       &-subtitle {
-        font-family: $font-popins-semb;
+        font-family: var(--font-title);
         font-size: 22px;
         line-height: 22px;
         letter-spacing: -0.004em;

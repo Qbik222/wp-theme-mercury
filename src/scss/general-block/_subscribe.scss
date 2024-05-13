@@ -30,7 +30,7 @@
     border-radius: 100px;
     background: $white;
     padding: 10px 19px 8px;
-    font-family: $font-popins-reg;
+    font-family: var(--font-main);
     box-shadow: $shadow-text-2;
     font-size: 15px;
     line-height: 30px;
@@ -54,7 +54,7 @@
     font-size: 13px;
     line-height: 17px;
     &-link{
-      font-family: $font-popins-semb;
+      font-family: var(--font-title);
       color: $salad;
       white-space: nowrap;
       text-decoration: underline;

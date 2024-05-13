@@ -7,7 +7,7 @@
 @import "base/wrapper";
 
 .title{
-  font-family: $font-popins-semb;
+  font-family: var(--font-title);
   color: $black;
   font-size: 32px;
   line-height: 39px;
@@ -27,7 +27,7 @@ body {
   &._lock {
     overflow: hidden;
   }
-  font-family: $font-popins-reg;
+  font-family: var(--font-main);
   font-style: normal;
   font-size: 20px;
   letter-spacing: 0.02em;
@@ -36,6 +36,6 @@ body {
 }
 
 // подключения компонентов страницы
-@import "general-block/header";
+@import "general-block/header-v3";
 @import "home/_casino.scss";
 @import "home/_best.scss";

@@ -3,7 +3,7 @@
   border-radius: 8px;
   box-shadow: $shadow-text-2;
   h1{
-    font-family: $font-popins-semb;
+    font-family: var(--font-title);
     font-size: 30px;
     line-height: 40px;
     letter-spacing: 0.01em;
@@ -80,7 +80,7 @@
 
       p{
         &:first-child{
-          font-family: $font-popins-semb;
+          font-family: var(--font-title);
           font-size: 15px;
           line-height: 20px;
           color: $black;

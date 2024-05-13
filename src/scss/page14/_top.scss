@@ -7,7 +7,7 @@
   box-shadow: $shadow-text-3;
   &__all-link{
     display: inline-block;
-    font-family: $font-popins-semb;
+    font-family: var(--font-title);
     font-size: 17px;
     line-height: 20px;
     letter-spacing: 0.02em;
@@ -18,7 +18,7 @@
 
 
   h2{
-    font-family: $font-popins-semb;
+    font-family: var(--font-title);
     font-size: 25px;
     line-height: 32px;
     color: $black;

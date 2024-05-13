@@ -13,7 +13,7 @@
     flex: 1 1 auto;
     &-title{
       max-width: 550px;
-      font-family: $font-popins-semb;
+      font-family: var(--font-title);
       font-size: 24px;
       line-height: 36px;
       color: $black;
@@ -27,7 +27,7 @@
       margin: 0 0 35px 0;
     }
     &-subtitle{
-      font-family: $font-popins-semb;
+      font-family: var(--font-title);
       font-size: 17px;
       line-height: 25px;
       color: $black;
@@ -56,7 +56,7 @@
       &-link{
         display: inline-block;
         text-align: end;
-        font-family: $font-popins-semb;
+        font-family: var(--font-title);
         font-size: 15px;
         line-height: 20px;
         color: $black;
@@ -114,7 +114,7 @@
       max-width: 330px;
     }
     &-title{
-      font-family: $font-popins-semb;
+      font-family: var(--font-title);
       text-align: center;
       font-size: 24px;
       line-height: 36px;
@@ -170,7 +170,7 @@
     }
 
     &-btn{
-      font-family: $font-popins-semb;
+      font-family: var(--font-title);
       display: inline-block;
       padding: 18px 15px 16px;
       width: 100%;

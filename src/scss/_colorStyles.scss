@@ -1,5 +1,5 @@
 .burgundy-btn{
-  font-family: $font-popins-semb;
+  font-family: var(--font-title);
   text-transform: uppercase;
   color: $salad;
   border-radius: 100px;
@@ -12,7 +12,7 @@
 }
 
 .white-btn{
-  font-family: $font-popins-semb;
+  font-family: var(--font-title);
   text-transform: uppercase;
   color: $black;
   border-radius: 100px;
@@ -26,7 +26,7 @@
 
 
 .transparent-btn{
-  font-family: $font-popins-semb;
+  font-family: var(--font-title);
   text-transform: uppercase;
   color: $black;
   border-radius: 100px;
@@ -39,7 +39,7 @@
 
 
 .transparent-salad-btn{
-  font-family: $font-popins-semb;
+  font-family: var(--font-title);
   text-transform: uppercase;
   color: $salad;
   border-radius: 100px;
@@ -52,7 +52,7 @@
 
 
 .orange-btn{
-  font-family: $font-popins-semb;
+  font-family: var(--font-title);
   text-transform: uppercase;
   border-radius: 100px;
   background: $salad;
@@ -64,7 +64,7 @@
 }
 
 .grey-btn{
-  font-family: $font-popins-semb;
+  font-family: var(--font-title);
   text-transform: uppercase;
   border-radius: 100px;
   color: $black;
@@ -77,7 +77,7 @@
 }
 
 .grey-btn-two{
-  font-family: $font-popins-semb;
+  font-family: var(--font-title);
   text-transform: uppercase;
   border-radius: 200px;
   color: $salad;

@@ -2,6 +2,9 @@
 //Реализация бургер-меню
 import { burger } from './functions/burger';
 
+// input drop menu
+import {dropMenuInput} from './functions/dropMenuInput'
+
 //Acordeon
 import { accorderon } from './functions/accorderon';
 

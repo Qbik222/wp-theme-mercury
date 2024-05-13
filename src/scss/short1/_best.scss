@@ -114,7 +114,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        font-family: $font-popins-semb;
+        font-family: var(--font-title);
         background: $salad;
         border-radius: 8px 0 8px 0;
         width: 28px;
@@ -137,7 +137,7 @@
     }
 
     &-title {
-      font-family: $font-popins-semb;
+      font-family: var(--font-title);
       font-size: 20px;
       line-height: 20px;
       letter-spacing: -0.004em;
@@ -282,7 +282,7 @@
       padding: 25px 10px;
 
       &-title {
-        font-family: $font-popins-semb;
+        font-family: var(--font-title);
         font-size: 15px;
         line-height: 18px;
         color: $black;
@@ -291,7 +291,7 @@
 
       &-subtitle {
         text-align: center;
-        font-family: $font-popins-semb;
+        font-family: var(--font-title);
         font-size: 21px;
         line-height: 21px;
         letter-spacing: -0.004em;

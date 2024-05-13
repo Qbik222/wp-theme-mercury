@@ -22,3 +22,5 @@ import { bestItemMobButton } from './components/home/bestItem-mobButtonComponent
 
 //News Tabs
 import { tabsBtnNews } from './components/tabsBtnNewsComponent.js';
+
+

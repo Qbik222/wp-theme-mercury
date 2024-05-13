@@ -4,7 +4,7 @@
 
   &__all-link{
     display: inline-block;
-    font-family: $font-popins-semb;
+    font-family: var(--font-title);
     font-size: 17px;
     line-height: 20px;
     letter-spacing: 0.02em;
@@ -52,7 +52,7 @@
     }
 
     &-btn {
-      font-family: $font-popins-semb;
+      font-family: var(--font-title);
       position: relative;
       display: inline-block;
       padding: 9px 0;
@@ -137,7 +137,7 @@
     }
     &-rtp{
       &-percent{
-        font-family: $font-popins-semb;
+        font-family: var(--font-title);
         font-size: 20px;
         line-height: 16px;
         letter-spacing: -0.004em;
@@ -215,7 +215,7 @@
         margin: 0 10px 0 0;
       }
       &-info{
-        font-family: $font-popins-semb;
+        font-family: var(--font-title);
         font-size: 15px;
         line-height: 22px;
         letter-spacing: -0.004em;

@@ -5,8 +5,8 @@
     align-items: center;
     justify-content: center;
     margin-left: auto;
-    background: $green-grad;
-    border-radius: 100px;
+    background: var(--purple);
+    border-radius: 2px;
     width: 54px;
     height: 54px;
     position: relative;
@@ -18,7 +18,9 @@
       background: url("../img/burger-img.svg") no-repeat 0 0/contain;
       transition: opacity $transition;
     }
-
+    &._active{
+      background: transparent;
+    }
     &._active span{
       opacity: 0;
     }
@@ -30,7 +32,7 @@
       position: absolute;
       width: 26px;
       height: 3px;
-      background: $salad;
+      background: var(--white);
       border-radius: 2px;
       top: 15px;
       left: 50%;
@@ -52,7 +54,7 @@
       position: absolute;
       width: 26px;
       height: 3px;
-      background: $salad;
+      background: var(--white);
       border-radius: 2px;
       left: 50%;
       transform: translate(-50%, 0);
@@ -78,19 +80,21 @@
   top: 0;
   left: 0;
   z-index: 200;
-  background: $black;
+  background: var(--black);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.20);
   @include breakpoint($tablet-bp) {
     padding: 9px 0;
   }
 
   &__language{
+    display: none;
     margin: 0 0 0 20px;
     cursor: pointer;
     min-width: 40px;
     max-width: 40px;
     height: 24px;
     position: relative;
-    display: flex;
+    //display: flex;
     align-items: center;
 
     @include breakpoint(1240px) {
@@ -142,11 +146,11 @@
       position: relative;
       display: flex;
       align-items: center;
-      font-family: $font-popins-reg;
+      font-family: var(--font-main);
       font-size: 12px;
       line-height: 20px;
       letter-spacing: -0.004em;
-      color: $white;
+      color: var(--white);
       padding: 8px 20px 6px;
 
       &._active::after{
@@ -193,8 +197,8 @@
       right: 0;
       position: absolute;
       padding: 10px 0;
-      background: $black;
-      color: $white;
+      background: var(--black);
+      color: var(--white);
       border-top: 1px solid $salad;
       border-radius: 0 0 2px 2px;
       filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.30));
@@ -246,11 +250,11 @@
     &-link{
       display: flex;
       align-items: center;
-      font-family: $font-popins-semb;
+      font-family: var(--font-title);
       font-size: 24px;
       line-height: 24px;
-      text-transform: uppercase;
-      color: $white;
+      //text-transform: uppercase;
+      color: var(--green-light);
       @include breakpoint($tablet-bp) {
         font-size: 18px;
         line-height: 18px;
@@ -264,9 +268,9 @@
     }
     img{
       margin: 0 10px 0 0;
-      max-width: 54px;
+      max-width: 97px;
       @include breakpoint($tablet-bp) {
-        max-width: 40px;
+        max-width: 84px;
 
       }
     }
@@ -286,7 +290,7 @@
       left: -100%;
       width: 100%;
       height: 100%;
-      background: $green-grad-2;
+      background: var(--black);
       overflow: auto;
       top: 0;
       z-index: 4;
@@ -316,34 +320,34 @@
     &::before{
       content: '';
       position: absolute;
-      width: 15px;
-      height: 15px;
+      width: 20px;
+      height: 20px;
       background: url("../img/search-icon.svg") no-repeat 0 0/contain;
-      right: 16px;
+      right: 25px;
       top: 50%;
       transform: translateY(-50%);
     }
 
     &-input {
-      font-family: $font-popins-reg;
+      font-family: $font-worksans-med;
       display: inline-block;
-      width: 280px;
+      width: 250px;
       padding: 15px 40px 13px 25px;
       font-size: 13px;
       line-height: 20px;
-      border-radius: 100px;
-      background: $white;
-      color: $black;
-      border: 1px solid $salad;
+      border-radius: 4px;
+      background: var(--header-input-bg);
+      color: var(--white);
+      //border: 1px solid $salad;
       @include breakpoint(1240px){
         width: 227px;
       }
       &::placeholder{
-        font-family: $font-popins-reg;
-        color: $black;
+        font-family: $font-worksans-med;
+        color: var(--header-input-placegolder);
       }
       &:focus{
-        outline: 1px solid $salad;
+        outline: 1px solid var(--purple);
       }
 
 
@@ -367,8 +371,8 @@
       }
 
       &-input {
-        background: $green-grad;
-        color: $white;
+        //background: $green-grad;
+        color: var(--white);
         border: none;
         display: block;
         opacity: 1;
@@ -379,7 +383,7 @@
         font-size: 13px;
         line-height: 20px;
         &::placeholder{
-          color: $white;
+          color: var(--white-opacity);
         }
       }
 
@@ -414,10 +418,10 @@
 
       a, span {
         cursor: pointer;
-        font-family: $font-popins-reg;
+        font-family: $font-worksans-semb;
         display: flex;
         align-items: center;
-        color: $white;
+        color: var(--white);
         text-decoration: none;
         padding: 28px 0 28px;
         font-size: 14px;
@@ -434,7 +438,7 @@
         }
 
         &:hover::after{
-          border-color: transparent transparent $salad transparent;
+          border-color: transparent transparent var(--white) transparent;
         }
         &::after{
           content: '';
@@ -453,9 +457,10 @@
       .sub-menu {
         padding: 10px 0;
         display: none;
+        //display: block !important;
         position: absolute;
-        background-color: $black;
-        border-top: 1px solid $salad;
+        background-color: var(--black);
+        //border-top: 1px solid $salad;
         border-radius: 0 0 2px 2px;
         min-width: 220px;
         max-width: 220px;
@@ -485,7 +490,7 @@
           margin: 0;
           &.mobile-active > a::after{
             right: 10px;
-            border-color: transparent transparent $salad transparent;
+            border-color: transparent transparent var(--white) transparent;
             transform: translateX(-50%) rotate(180deg);
           }
           a, span {
@@ -494,7 +499,7 @@
             width: 100%;
             padding: 7px 35px 6px 20px;
             font-size: 12px;
-            color: $white;
+            color: var(--white);
             transition: background-color $transition;
             @media screen and (max-width: 1350px) {
               font-size: 12px;
@@ -514,7 +519,7 @@
               transform: translateX(-50%) rotate(90deg);
             }
             &:hover{
-              background: $gray-links;
+              background: var( --purple-grad);
               @media screen and (max-width: 1024px){
                 background: transparent;
               }
@@ -571,16 +576,26 @@
 
       .menu-item {
         position: relative;
-        &:not(:last-child){
-          margin: 0 0 0 0;
+        background: var(--purple-grad);
+        border-radius: 4px;
+
+        &:hover{
+          background: var(--purple-grad-hover);
+        }
+        &:first-child{
+          margin: 0;
+        }
+        &:not(:first-child){
+          margin: 5px 0 0 0;
         }
 
         a,span {
           text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.10);
-          border-top: 1px solid $gray-border-menu;
+          //border-top: 1px solid $gray-border-menu;
           font-size: 17px;
           width: 100%;
           padding: 18px 30px 18px 10px;
+
 
           &::before{
             content: none;
@@ -604,6 +619,9 @@
           max-width: 100%;
           .menu-item{
             width: 100%;
+            background: var(--black);
+            border-radius: 0;
+            border: 1px solid var(--black);
             a,span{
               font-size: 17px;
               padding: 14px 30px 14px 20px;
@@ -650,7 +668,7 @@
             }
           }
           .sub-menu-3{
-            background: $white;
+            background: var(--white);
             @media screen and (max-width: 1024px){
               background: transparent;
             }
@@ -669,6 +687,7 @@
 
 .drop-menu{
   display: none;
+  //display: block;
   position: absolute;
   top: 63px;
   border-radius: 0 0 4px 4px;
@@ -682,18 +701,18 @@
   }
   &__title{
     padding: 7px 20px;
-    background: $gray-white;
-    font-family: $font-popins-reg;
-    color: $gray-opacity;
+    background: var(--blue-shade);
+    font-family: var(--font-main);
+    color: var(--white-opacity);
     font-size: 14px;
     line-height: 20px;
     span{
-      color: $black;
+      color: var(--white);
     }
   }
   &__list{
     padding: 10px 0;
-    background: $white;
+    background: var(--black);
   }
 
   &__link{
@@ -701,10 +720,10 @@
     position: relative;
     display: flex;
     align-items: center;
-    background: $white;
+    background: var(--black);
     transition: background-color $transition;
     &:hover{
-      background: $white-hover;
+      background: var(--blue-shade);
     }
   }
 
@@ -718,8 +737,8 @@
       }
     }
     &-text{
-      font-family: $font-popins-reg;
-      color: $black;
+      font-family: var(--font-main);
+      color: var(--white);
       font-size: 14px;
       line-height: 20px;
     }
@@ -741,14 +760,14 @@
     z-index: 6;
     &__title{
       background: $green;
-      color: $white;
+      color: var(--white);
       span{
-        color: $white;
+        color: var(--white);
       }
     }
     &__item{
       &-text{
-        color: $white;
+        color: var(--white);
       }
     }
     &__list{

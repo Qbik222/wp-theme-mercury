@@ -3,7 +3,7 @@
   flex-direction: column;
   &__all-link{
     display: inline-block;
-    font-family: $font-popins-semb;
+    font-family: var(--font-title);
     font-size: 17px;
     line-height: 20px;
     letter-spacing: 0.02em;
@@ -20,7 +20,7 @@
   }
 
   h2{
-    font-family: $font-popins-semb;
+    font-family: var(--font-title);
     font-size: 20px;
     line-height: 27px;
     color: $black;
@@ -48,7 +48,7 @@
     }
 
     &-btn {
-      font-family: $font-popins-semb;
+      font-family: var(--font-title);
       position: relative;
       display: inline-block;
       padding: 9px 0;

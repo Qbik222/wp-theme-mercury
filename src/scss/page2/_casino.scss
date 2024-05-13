@@ -39,7 +39,7 @@
     }
   }
   &__title{
-    font-family: $font-popins-semb;
+    font-family: var(--font-title);
     text-shadow: $shadow-text-2;
     color: $white;
     font-size: 38px;

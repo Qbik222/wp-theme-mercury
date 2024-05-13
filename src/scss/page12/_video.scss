@@ -9,7 +9,7 @@
   }
 
   h2{
-    font-family: $font-popins-semb;
+    font-family: var(--font-title);
     font-size: 20px;
     line-height: 27px;
     color: $black;
@@ -37,7 +37,7 @@
     }
 
     &-btn {
-      font-family: $font-popins-semb;
+      font-family: var(--font-title);
       position: relative;
       display: inline-block;
       padding: 9px 0;

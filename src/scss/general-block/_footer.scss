@@ -17,7 +17,7 @@
   &__link {
     display: flex;
     align-items: center;
-    font-family: $font-popins-semb;
+    font-family: var(--font-title);
     font-size: 24px;
     line-height: 24px;
     text-transform: uppercase;
@@ -52,7 +52,7 @@
     }
 
     &-title {
-      font-family: $font-popins-semb;
+      font-family: var(--font-title);
       color: $white;
       font-size: 17px;
       line-height: 22px;

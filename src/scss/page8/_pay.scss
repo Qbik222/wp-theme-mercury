@@ -37,7 +37,7 @@
       }
     }
     &-title{
-      font-family: $font-popins-semb;
+      font-family: var(--font-title);
       font-size: 14px;
       line-height: 21px;
       letter-spacing: -0.004em;
@@ -68,7 +68,7 @@
       margin: 0 10px 0 0;
     }
     &-bonus{
-      font-family: $font-popins-semb;
+      font-family: var(--font-title);
       font-size: 20px;
       line-height: 24px;
       letter-spacing: -0.004em;

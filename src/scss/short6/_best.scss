@@ -46,7 +46,7 @@
       margin: 0 0 20px 0;
 
       span {
-        font-family: $font-popins-semb;
+        font-family: var(--font-title);
       }
     }
 
@@ -62,7 +62,7 @@
 
   &__all-link {
     align-self: center;
-    font-family: $font-popins-semb;
+    font-family: var(--font-title);
     display: inline-block;
     padding: 18px 70px 16px;
     font-size: 17px;

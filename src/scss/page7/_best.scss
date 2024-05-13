@@ -4,7 +4,7 @@
 
   &__all-link{
     display: inline-block;
-    font-family: $font-popins-semb;
+    font-family: var(--font-title);
     font-size: 17px;
     line-height: 20px;
     letter-spacing: 0.02em;
@@ -67,7 +67,7 @@
       color: $black;
       margin: 0 0 20px 0;
       span{
-        font-family: $font-popins-semb;
+        font-family: var(--font-title);
       }
     }
     &-link{

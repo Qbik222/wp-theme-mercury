@@ -43,7 +43,7 @@
 
     &-rtp {
       &-percent {
-        font-family: $font-popins-semb;
+        font-family: var(--font-title);
         font-size: 20px;
         line-height: 16px;
         letter-spacing: -0.004em;
@@ -135,7 +135,7 @@
       }
 
       &-info {
-        font-family: $font-popins-semb;
+        font-family: var(--font-title);
         font-size: 15px;
         line-height: 22px;
         letter-spacing: -0.004em;
