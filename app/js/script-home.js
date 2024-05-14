@@ -379,7 +379,7 @@ if (document.querySelector(".accordion") != null) {
 
 const iconMenu = document.querySelector(".menu__icon");
 const menuBody = document.querySelector(".header__menu");
-const menuBodyV3 = document.querySelector("header__wrap");
+const menuBodyV3 = document.querySelector(".header__wrap");
 const body = document.querySelector("body");
 iconMenu.addEventListener("click", function (e) {
   iconMenu.classList.toggle("_active");
@@ -430,7 +430,14 @@ menuItems.forEach(function (menuItem) {
   \*******************************************/
 /***/ (() => {
 
-console.log("drop");
+const dropMenuInput = document.querySelector('.drop-menu');
+const input = document.querySelector('.header__search-input');
+input.addEventListener('focusin', () => {
+  dropMenuInput.style.display = "block";
+});
+input.addEventListener('focusout', () => {
+  dropMenuInput.style.display = "none";
+});
 
 /***/ })
 

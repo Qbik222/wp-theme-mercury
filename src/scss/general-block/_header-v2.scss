@@ -6,7 +6,6 @@
     align-items: center;
     justify-content: center;
     margin-left: auto;
-    background: $green-grad;
     border-radius: 100px;
     width: 54px;
     height: 54px;
@@ -14,9 +13,9 @@
     z-index: 5;
 
     span{
-      width: 28px;
-      height: 28px;
-      background: url("../img/burger-img.svg") no-repeat 0 0/contain;
+      width: 24px;
+      height: 21px;
+      background: url("../img/burger-img-v2.svg") no-repeat 0 0/contain;
       transition: opacity $transition;
     }
 
@@ -75,6 +74,7 @@
 
 .header {
   position: relative;
+  display: flex;
   width: 100%;
   top: 0;
   left: 0;
@@ -82,6 +82,27 @@
   background: var(--purple-dark);
   @include breakpoint($tablet-bp) {
     padding: 9px 0;
+  }
+  &__wrap{
+    width: 100%;
+    @include breakpoint($tablet-bp) {
+      padding: 80px 15px 0;
+      flex-direction: column-reverse;
+      align-items: stretch;
+      justify-content: flex-end;
+      position: fixed;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: $green-grad-2;
+      overflow: auto;
+      top: 0;
+      z-index: 4;
+      transition: left 0.3s ease 0s;
+      &._active {
+        left: 0;
+      }
+    }
   }
   &__menu-wrap{
     background: var(--purple2);
@@ -104,6 +125,9 @@
       border: 1px solid var(--white);
       color: var(--purple2);
     }
+    @include breakpoint($tablet-bp){
+      display: none;
+    }
   }
   &__reg{
     background: var(--white);
@@ -119,6 +143,9 @@
       background-color: transparent;
       border: 1px solid var(--purple3);
       color: var(--white);
+    }
+    @include breakpoint($tablet-bp){
+      display: none;
     }
   }
   &__language{
@@ -153,7 +180,7 @@
 
     &:hover::before {
       transform: rotate(35deg) translateY(-50%);
-      right: -10px;
+      right: 1px;
     }
 
 
@@ -234,7 +261,7 @@
     &::before{
       content: '';
       position: absolute;
-      right: -11px;
+      right: 0;
       bottom: 50%;
       background: var(--white);
       display: inline-block;
@@ -246,7 +273,7 @@
     }
     &::after{
       position: absolute;
-      right: -7px;
+      right: 4px;
       bottom: 50%;
       background: var(--white);
       content: '';
@@ -258,12 +285,7 @@
 
     }
     &-select{
-      //width: 100%;
-      //height: 100%;
-      //display: flex;
-      //align-items: center;
-      //justify-content: center;
-      margin-bottom: 5px;
+      margin: 0 15px 5px 0;
     }
 
   }
@@ -277,7 +299,19 @@
     //flex: 1 1 auto;
     margin: 0 15px 0 0;
     position: relative;
+    left: 0;
     z-index: 10;
+    &-mob{
+      display: none;
+      z-index: 10;
+      @include breakpoint($tablet-bp){
+        display: flex;
+        margin: 0 0 0 16px;
+      }
+    }
+    @include breakpoint($tablet-bp){
+      display: none;
+    }
     &-link{
       display: flex;
       align-items: center;
@@ -317,24 +351,6 @@
     align-items: center;
     width: 1240px;
     //max-height: 50px;
-    @include breakpoint($tablet-bp) {
-      padding: 80px 15px 0;
-      flex-direction: column-reverse;
-      align-items: stretch;
-      justify-content: flex-end;
-      position: fixed;
-      left: -100%;
-      width: 100%;
-      height: 100%;
-      background: $green-grad-2;
-      overflow: auto;
-      top: 0;
-      z-index: 4;
-      transition: left 0.3s ease 0s;
-      &._active {
-        left: 0;
-      }
-    }
   }
 
   &__nav {
@@ -444,6 +460,12 @@
   //justify-content: center;
   flex: 1 1 auto;
   width: 100%;
+  &__icon-mob{
+    display: none;
+    @include breakpoint($tablet-bp){
+      display: block;
+    }
+  }
   .menu-list {
     display: flex;
     list-style-type: none;
@@ -455,7 +477,9 @@
       &:not(:last-child){
         margin: 0 40px 0 0;
       }
-
+      @include breakpoint($tablet-bp){
+        display: flex;
+      }
       a, span {
         cursor: pointer;
         font-family: var(--font-main);
@@ -476,7 +500,6 @@
         @media screen and (max-width: 1080px) {
           font-size: 11px;
         }
-
         &:hover::after{
           border-color: transparent transparent var(--white) transparent;
         }
@@ -623,7 +646,7 @@
 
     .menu-list {
       flex-direction: column;
-      max-width: 500px;
+      //max-width: 500px;
       width: 100%;
       margin: 0 auto;
 
