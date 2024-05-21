@@ -900,37 +900,6 @@
   padding: 12px 25px 10px;
   white-space: nowrap;
 }
-.footer__btn-top {
-  position: fixed;
-  bottom: 40px;
-  right: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: 60px;
-  height: 60px;
-  -webkit-transition: opacity 0.3s ease, visibility 0.3s ease;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
-  border: 1px solid #E7FD52;
-}
-.footer__btn-top span {
-  display: inline-block;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 9px 14px;
-  border-color: transparent transparent #FFFFFF;
-}
-.footer__btn-top._hidden {
-  opacity: 0;
-  visibility: hidden;
-}
 
 @media screen and (max-width: 1600px) {
   .footer__cookie {
