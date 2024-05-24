@@ -1,11 +1,11 @@
 .casino {
-  background: $white;
+  background: url("../img/page3/casino/casino-bg.svg") no-repeat 0 0/cover;
   filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.05));
   &__wrap{
     overflow: hidden;
   }
   &__container{
-    padding: 5px 15px 50px 15px;
+    padding: 10px 15px;
     position: relative;
 
   }
@@ -24,7 +24,7 @@
       transition: color $transition;
 
       &:hover {
-        color: $black;
+        color: var(--black);
       }
 
       &:last-child{
@@ -34,15 +34,15 @@
       }
 
       &:not(:last-child) {
-        margin: 0 18px 0 0;
+        margin: 0 28px 0 0;
 
         &::before {
-          content: '•';
+          content: '—';
           position: absolute;
           font-size: 12px;
           line-height: 20px;
           color: $gray;
-          right: -11px;
+          right: -20px;
           top: 50%;
           transform: translateY(-50%);
         }
@@ -50,80 +50,9 @@
     }
   }
 
-  &__links{
-    position: absolute;
-    bottom: 0;
-    left: 15px;
-    z-index: 4;
-
-    &-list{
-      display: flex;
-      align-items: center;
-      overflow-x: scroll;
-    }
-    &-item{
-      &:not(:last-child){
-        margin: 0 25px 0 0;
-      }
-    }
-    &-link{
-      display: inline-block;
-      padding: 15px 0;
-      position: relative;
-      white-space: nowrap;
-      font-size: 17px;
-      line-height: 22px;
-      color: $gray;
-      transition: color $transition;
-      &._active::before{
-        opacity: 1;
-      }
-      &._active::after{
-        opacity: 1;
-      }
-      &._active{
-        color: $black;
-      }
-      &::before{
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 2px;
-        border-radius: 8px;
-        background: $green;
-        opacity: 0;
-        transition: opacity $transition;
-      }
-      &::after{
-        content: '';
-        position: absolute;
-        bottom: 2px;
-        left: 0;
-        width: 100%;
-        height: 2px;
-        border-radius: 8px;
-        background: $salad;
-        opacity: 0;
-        transition: opacity $transition;
-      }
-      &:hover{
-        color: $black;
-      }
-      &:hover::before{
-        opacity: 1;
-      }
-      &:hover::after{
-        opacity: 1;
-      }
-    }
-  }
-
-
   &__row{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
   }
 
   &__info {
@@ -140,7 +69,7 @@
       right: 0;
       top: -50px;
       height: 204%;
-      border-right: 5px dashed $white-bg;
+      border-right: 5px dashed var(--white)-bg;
       pointer-events: none;
     }
 
@@ -150,11 +79,11 @@
     }
 
     &-image {
-      max-width: 325px;
+      max-width: 240px;
       margin: 0 30px 0 0px;
-      img{
-        border-radius: 8px;
-      }
+      //img{
+      //  border-radius: 8px;
+      //}
     }
 
     &-play {
@@ -170,9 +99,9 @@
 
     &-title {
       font-family: var(--font-title);
-      font-size: 22px;
+      font-size: 32px;
       line-height: 33px;
-      color: $black;
+      color: var(--black);
       margin: 0 20px 0 0;
     }
 
@@ -181,7 +110,7 @@
       font-size: 12px;
       line-height: 15px;
       letter-spacing: -0.004em;
-      color: $purple;
+      color: var(--purple);
       &-one{
         margin: 0 8px 0 0;
       }
@@ -206,7 +135,7 @@
         }
       }
       &-comment{
-        display: none;
+        //display: none;
         margin: 0 0 0 12px;
       }
     }
@@ -219,7 +148,7 @@
       color: $gray;
       transition: color $transition;
       &:hover{
-        color: $black;
+        color: var(--black);
       }
     }
 
@@ -229,11 +158,11 @@
 
       &-wrap{
         display: flex;
-        flex-direction: column;
+        //flex-direction: column;
 
       }
       &-play{
-        padding: 12px 80px 10px;
+        padding: 12px 21px 10px;
         margin: 0 10px 5px 0;
         font-size: 15px;
         line-height: 20px;
@@ -251,39 +180,31 @@
     &-country{
       display: flex;
       flex-direction: column;
-      align-items: flex-end;
+      align-items: center;
+      justify-content: center;
+      max-height: 40px;
       &-wrap{
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
-      }
-      &-name{
-        display: flex;
-        align-items: center;
-        margin: 0 0 8px 0;
-        img{
-          max-width: 20px;
-          border-radius: 50%;
-          margin: 0 10px 0 0;
-        }
-        &-txt{
-          font-size: 13px;
-          line-height: 22px;
-          color: $gray;
-        }
+        justify-content: center;
+        gap: 5px;
+        //align-items: flex-end;
       }
       &-create,
       &-update{
-        font-size: 13px;
-        line-height: 22px;
-        color: $gray;
+        font-size: 11px;
+        line-height: 12px;
+        color: var(--gray);
+        span{
+          color: var(--black);
+        }
       }
-      &-create{
-        margin: 0 0 8px 0;
-      }
-      &-update{
-        margin: 0 0 12px 0;
-      }
+      //&-create{
+      //  margin: 0 0 8px 0;
+      //}
+      //&-update{
+      //  margin: 0 0 12px 0;
+      //}
       &-work{
         max-width: 100px;
       }
@@ -293,44 +214,40 @@
   }
 
   &__bonus{
-    color: $black;
+    color: var(--white);
     padding: 0 0 0 38px;
+
     &-title{
       font-family: var(--font-title);
       font-size: 15px;
       line-height: 18px;
       margin: 0 0 5px 0;
+      text-transform: uppercase;
     }
     &-subtitle{
       font-family: var(--font-title);
-      font-size: 24px;
-      line-height: 24px;
+      font-size: 32px;
+      line-height: 32px;
       margin: 0 0 5px 0;
-      color: $green-white;
+    }
+    &-copy{
+      width: 20px;
+      height: 20px;
+      background: url("../img/page3/casino/copy-icon.svg") no-repeat 0 0/contain;
+      margin: auto 0;
     }
     &-text{
       font-size: 13px;
       line-height: 18px;
       letter-spacing: -0.004em;
       margin: 0 0 10px 0;
-      color: $gray;
     }
     &-link{
       display: inline-block;
-      padding: 12px 28px 10px;
+      padding: 12px 18px 10px;
       font-size: 15px;
       line-height: 20px;
       margin: 0 0 20px 0;
-    }
-    &-subtext{
-      font-size: 13px;
-      line-height: 16px;
-      color: $gray;
-      max-width: 160px;
-      span{
-        font-family: var(--font-title);
-        color: $gray;
-      }
     }
   }
 }
@@ -364,7 +281,7 @@
       align-items: center;
       justify-content: space-between;
       padding: 0 0 15px 0;
-      border-bottom: 2px solid $white-bg;
+      border-bottom: 2px solid var(--white)-bg;
     }
   }
 }
@@ -411,7 +328,7 @@
 
 @media screen and (max-width: 600px) {
   .casino {
-    background: $white;
+    background: var(--white);
     &__breadcrumbs {
       margin: 0 0 10px 0;
       overflow-x: scroll;
@@ -476,7 +393,7 @@
         flex-direction: column;
         padding-bottom: 15px;
         margin-bottom: 5px;
-        border-bottom: 2px solid $white-bg;
+        border-bottom: 2px solid var(--white)-bg;
       }
       &-image{
         margin: 0 0 15px 0;
@@ -507,7 +424,7 @@
       }
       &-country{
         padding-bottom: 10px ;
-        border-bottom: 2px solid $white-bg;
+        border-bottom: 2px solid var(--white)-bg;
         align-items: center;
         &-wrap{
           flex: 1 1 auto;

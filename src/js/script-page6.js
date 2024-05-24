@@ -2,7 +2,7 @@
 import { burger } from './functions/burger';
 
 //Language
-import { languageComponent } from './components/languageComponent.js';
+// import { languageComponent } from './components/languageComponent.js';
 
 //Acordeon
 import { accorderon } from './functions/accorderon';
