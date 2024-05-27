@@ -33,7 +33,7 @@
       font-size: 13px;
       line-height: 22px;
       color: $gray-text-on-green;
-      border-radius: 8px;
+      border-radius: 2px;
       transition: background-color $transition, color $transition, box-shadow $transition;
       &::after{
         content: '';
@@ -117,7 +117,7 @@
     &-image{
       margin: 0 0 15px 0;
       img{
-        border-radius: 8px;
+        border-radius: 2px;
       }
     }
 

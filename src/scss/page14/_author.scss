@@ -1,7 +1,7 @@
 .author{
   padding: 30px;
   background: var(--white);
-  border-radius: 8px;
+  border-radius: 2px;
   margin: 0 0 20px 0;
   box-shadow: $shadow-text-3;
   &__info{
@@ -12,7 +12,7 @@
       max-width: 80px;
       margin: 0 15px 0 0;
       img{
-        border-radius: 8px;
+        border-radius: 2px;
       }
     }
     &-wrap{
@@ -49,7 +49,7 @@
       justify-content: center;
       width: 64px;
       height: 42px;
-      border-radius: 8px;
+      border-radius: 2px;
       &:not(:last-child){
         margin: 0 10px 0 0;
       }
@@ -246,7 +246,7 @@
         line-height: 30px;
         color: var(--white);
         font-family: sans-serif;
-        border-radius: 8px;
+        border-radius: 2px;
         background: $green-grad-2;
       }
 
@@ -264,7 +264,7 @@
   blockquote {
     position: relative;
     padding: 85px 30px 20px;
-    border-radius: 8px;
+    border-radius: 2px;
     background: $green-grad-2;
     color: var(--white);
     font-size: 15px;

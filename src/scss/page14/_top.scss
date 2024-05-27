@@ -3,7 +3,7 @@
   flex-direction: column;
   padding: 30px;
   background: var(--white);
-  border-radius: 8px;
+  border-radius: 2px;
   box-shadow: $shadow-text-3;
   &__all-link{
     display: inline-block;
@@ -49,7 +49,7 @@
       margin: 0 0 15px 0;
       img{
         width: 100%;
-        border-radius: 8px;
+        border-radius: 2px;
         height: 170px;
         object-fit: cover;
       }

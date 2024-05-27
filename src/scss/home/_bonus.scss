@@ -60,7 +60,7 @@
       font-size: 13px;
       line-height: 22px;
       color: $gray;
-      border-radius: 8px;
+      border-radius: 2px;
       background: transparent;
       transition: background-color $transition, color $transition, box-shadow $transition;
 
@@ -133,7 +133,7 @@
       &-text{
         display: none;
         padding: 15px;
-        border-radius: 8px;
+        border-radius: 2px;
         background: $green-grad;
         color: var(--white);
         width: 150px;
@@ -151,7 +151,7 @@
       max-width: 160px;
       margin: 0 0 10px 0;
       img{
-        border-radius: 8px;
+        border-radius: 2px;
       }
     }
     &-title{

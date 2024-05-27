@@ -1,18 +1,60 @@
 .payment {
-  background: var(--white);
-  border-radius: 8px;
-  padding: 30px;
-  box-shadow: $shadow-text-3;
+  background: transparent;
+  border-radius: 2px;
   margin: 0 0 20px 0;
   display: flex;
   flex-direction: column;
+  &__wrap{
+    background: var(--white);
+    padding: 30px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    margin-bottom: 2px
+  }
+  &__nav{
+    background: var(--white);
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--purple-gray);
+    font-size: 14px;
+    font-family: var(--font-main);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    &-btn{
+      display: flex;
+      align-items: center;
+      transition: color .4s ease;
+      &::before, &::after{
+        display: block;
+        content: "";
+        position: relative;
+        order: 0;
+        width: 8px;
+        border-radius: 2px;
+        height: 1.4px;
+        background: var(--purple-gray);
+        transition: background .4s ease;
+      }
+      &::before{
+        transform: rotate(-45deg);
+        margin: 0 15px 0 0;
+      }
+      &::after{
+        order: -1;
+        transform: rotate(45deg);
+        left: 3px;
 
-  &__btn-showMore{
-    align-self: center;
-    display: inline-block;
-    padding: 14px 30px 12px;
-    font-size: 15px;
-    line-height: 20px;
+      }
+      &:hover{
+        color: var(--blue);
+        cursor: pointer;
+        &::before, &::after{
+          background: var(--blue);
+        }
+      }
+    }
   }
   &__title{
     margin: 0 0 15px 0;
@@ -26,11 +68,12 @@
   }
 
   &__item {
-    padding: 20px;
+    padding: 10px 20px;
     display: flex;
     align-items: center;
-    background: var(--white-bg);
-    border-radius: 4px;
+    border: 2px solid var(--second-gray);
+    background: transparent;
+    border-radius: 2px;
     position: relative;
     &-link{
       position: absolute;
@@ -50,8 +93,8 @@
     }
 
     &-name {
-      font-size: 15px;
-      line-height: 20px;
+      font-size: 16px;
+      line-height: 24px;
       color: var(--black);
     }
   }
@@ -61,13 +104,6 @@
   .payment {
     padding: 30px 15px 20px;
     border-radius: 0;
-    &__btn-showMore{
-      align-self: center;
-      width: 80%;
-      text-align: center;
-      font-size: 15px;
-      line-height: 20px;
-    }
   }
 }
 
@@ -81,9 +117,6 @@
 
 @media screen and (max-width: 600px) {
   .payment {
-    &__btn-showMore{
-      width: 100%;
-    }
     &__title{
       margin: 0 0 10px 0;
     }

@@ -1,36 +1,36 @@
 .quote{
   padding: 30px;
-  background: $green-grad-2;
-  border-radius: 8px;
+  background: var(--purple-grad-v1);
+  border-radius: 2px;
   position: relative;
   margin: 0 0 20px 0;
-  box-shadow: $shadow-text-3;
-  &::before{
-    pointer-events: none;
-    content: '‟';
-    font-size: 65px;
-    line-height: 65px;
-    transform: scale(1, -1);
-    height: 18px;
-    color: $salad;
-    position: absolute;
-    display: inline-block;
-    top: 45px;
-    left: 30px;
-  }
-  &::after{
-    pointer-events: none;
-    content: '‟';
-    font-size: 65px;
-    line-height: 65px;
-    transform: scale(-1, 1);
-    height: 18px;
-    color: $salad;
-    position: absolute;
-    display: inline-block;
-    top: 55px;
-    left: 52px;
-  }
+  //box-shadow: $shadow-text-3;
+  //&::before{
+  //  pointer-events: none;
+  //  content: '‟';
+  //  font-size: 65px;
+  //  line-height: 65px;
+  //  transform: scale(1, -1);
+  //  height: 18px;
+  //  color: var(--white);
+  //  position: absolute;
+  //  display: inline-block;
+  //  top: 45px;
+  //  left: 30px;
+  //}
+  //&::after{
+  //  pointer-events: none;
+  //  content: '‟';
+  //  font-size: 65px;
+  //  line-height: 65px;
+  //  transform: scale(-1, 1);
+  //  height: 18px;
+  //  color: var(--white);
+  //  position: absolute;
+  //  display: inline-block;
+  //  top: 55px;
+  //  left: 52px;
+  //}
   &__text{
     font-size: 15px;
     line-height: 30px;
@@ -45,7 +45,7 @@
       margin: 0 0 20px 0;
       display: flex;
       align-items: center;
-      padding: 0 0 0 60px;
+      //padding: 0 0 0 60px;
     }
     &-image{
       width: 60px;

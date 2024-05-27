@@ -1,6 +1,6 @@
 .author{
   margin: 0 0 40px 0;
-  border-radius: 8px;
+  border-radius: 2px;
   box-shadow: $shadow-text-2;
   h1{
     font-family: var(--font-title);
@@ -44,7 +44,7 @@
   }
 
   &__wrap{
-    border-radius: 8px;
+    border-radius: 2px;
     overflow: hidden;
   }
 
@@ -103,7 +103,7 @@
       justify-content: center;
       width: 64px;
       height: 42px;
-      border-radius: 8px;
+      border-radius: 2px;
       &:not(:last-child){
         margin: 0 10px 0 0;
       }

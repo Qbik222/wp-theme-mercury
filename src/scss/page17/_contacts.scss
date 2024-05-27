@@ -8,7 +8,7 @@
     box-shadow: $shadow-text-2;
     padding: 40px 50px;
     background: var(--white);
-    border-radius: 8px;
+    border-radius: 2px;
     margin: 0 40px 0 0;
     flex: 1 1 auto;
     &-title{
@@ -77,7 +77,7 @@
       justify-content: center;
       width: 64px;
       height: 42px;
-      border-radius: 8px;
+      border-radius: 2px;
       &:not(:last-child){
         margin: 0 10px 0 0;
       }
@@ -109,7 +109,7 @@
       box-shadow: $shadow-text-2;
       padding: 40px 30px 30px 30px;
       background: var(--white);
-      border-radius: 8px;
+      border-radius: 2px;
       min-width: 320px;
       max-width: 330px;
     }
@@ -139,7 +139,7 @@
       display: inline-block;
       width: 100%;
       background: var(--white-bg);
-      border-radius: 8px;
+      border-radius: 2px;
       padding: 10px 20px 8px;
       font-size: 15px;
       line-height: 30px;
@@ -156,7 +156,7 @@
       display: inline-block;
       width: 100%;
       background: var(--white-bg);
-      border-radius: 8px;
+      border-radius: 2px;
       padding: 10px 20px 8px;
       font-size: 15px;
       line-height: 30px;

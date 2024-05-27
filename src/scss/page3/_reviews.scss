@@ -1,8 +1,8 @@
 .reviews {
   background: var(--white);
-  border-radius: 8px;
+  border-radius: 2px;
   padding: 30px;
-  box-shadow: $shadow-text-3;
+  //box-shadow: $shadow-text-3;
   margin: 0 0 20px 0;
   display: flex;
   flex-direction: column;
@@ -39,8 +39,8 @@
         &::before {
           content: '';
           position: absolute;
-          width: 40px;
-          height: 40px;
+          width: 23px;
+          height: 23px;
           top: 50%;
           left: 20px;
           transform: translateY(-50%);
@@ -58,8 +58,8 @@
         &::before {
           content: '';
           position: absolute;
-          width: 40px;
-          height: 40px;
+          width: 23px;
+          height: 23px;
           top: 50%;
           left: 20px;
           transform: translateY(-50%);
@@ -70,10 +70,10 @@
   }
 
   &__item {
-    padding: 20px 20px 20px 70px;
+    padding: 10px 10px 10px 60px;
     background: var(--white-bg);
-    border-radius: 4px;
-    min-height: 80px;
+    border-radius: 6px;
+    min-height: 60px;
     display: flex;
     align-items: center;
 

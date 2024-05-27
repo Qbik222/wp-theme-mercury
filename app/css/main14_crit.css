@@ -14,6 +14,7 @@
   --purple3: #6202FE;
   --purple-dark: #13012A;
   --purple-gray: #71708D;
+  --purple-grad-v1: linear-gradient(180deg, #9A5EF5 0%, #B887FF 100%);
   --purple-grad: linear-gradient(270deg, rgba(72, 51, 107, 0.3) 0%, rgba(40, 29, 59, 0.3) 100%);
   --purple-grad-hover: linear-gradient(270deg, rgba(72, 51, 107, 0.5) 0%, rgba(40, 29, 59, 0.5) 100%);
   --blue-shade: #243A64;
@@ -1150,7 +1151,7 @@ body._lock {
   font-size: 13px;
   line-height: 22px;
   color: #D2E4DD;
-  border-radius: 8px;
+  border-radius: 2px;
   -webkit-transition: background-color 0.3s ease, color 0.3s ease, -webkit-box-shadow 0.3s ease;
   transition: background-color 0.3s ease, color 0.3s ease, -webkit-box-shadow 0.3s ease;
   transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
@@ -1226,7 +1227,7 @@ body._lock {
   margin: 0 0 15px 0;
 }
 .blog__item-image img {
-  border-radius: 8px;
+  border-radius: 2px;
 }
 .blog__item-licensed {
   display: -webkit-box;
@@ -1437,7 +1438,7 @@ body._lock {
 .author {
   padding: 30px;
   background: var(--white);
-  border-radius: 8px;
+  border-radius: 2px;
   margin: 0 0 20px 0;
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
@@ -1456,7 +1457,7 @@ body._lock {
   margin: 0 15px 0 0;
 }
 .author__info-image img {
-  border-radius: 8px;
+  border-radius: 2px;
 }
 .author__info-wrap p:first-child {
   font-family: var(--font-title);
@@ -1498,7 +1499,7 @@ body._lock {
   justify-content: center;
   width: 64px;
   height: 42px;
-  border-radius: 8px;
+  border-radius: 2px;
 }
 .author__social-item:not(:last-child) {
   margin: 0 10px 0 0;
@@ -1683,7 +1684,7 @@ body._lock {
   line-height: 30px;
   color: var(--white);
   font-family: sans-serif;
-  border-radius: 8px;
+  border-radius: 2px;
   background: -webkit-gradient(linear, left top, left bottom, from(#085A3D), to(#038941));
   background: linear-gradient(180deg, #085A3D 0%, #038941 100%);
 }
@@ -1697,7 +1698,7 @@ body._lock {
 .news__blog blockquote {
   position: relative;
   padding: 85px 30px 20px;
-  border-radius: 8px;
+  border-radius: 2px;
   background: -webkit-gradient(linear, left top, left bottom, from(#085A3D), to(#038941));
   background: linear-gradient(180deg, #085A3D 0%, #038941 100%);
   color: var(--white);

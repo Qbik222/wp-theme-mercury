@@ -14,6 +14,7 @@
   --purple3: #6202FE;
   --purple-dark: #13012A;
   --purple-gray: #71708D;
+  --purple-grad-v1: linear-gradient(180deg, #9A5EF5 0%, #B887FF 100%);
   --purple-grad: linear-gradient(270deg, rgba(72, 51, 107, 0.3) 0%, rgba(40, 29, 59, 0.3) 100%);
   --purple-grad-hover: linear-gradient(270deg, rgba(72, 51, 107, 0.5) 0%, rgba(40, 29, 59, 0.5) 100%);
   --blue-shade: #243A64;
@@ -35,7 +36,7 @@
   flex-direction: column;
   padding: 30px;
   background: var(--white);
-  border-radius: 8px;
+  border-radius: 2px;
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   margin: 0 0 20px 0;
@@ -83,7 +84,7 @@
   height: 46px;
   -o-object-fit: cover;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 2px;
 }
 .pay__item-title {
   font-family: var(--font-title);
@@ -261,7 +262,7 @@
 .news {
   background: var(--white);
   padding: 30px;
-  border-radius: 8px;
+  border-radius: 2px;
   margin: 0 0 20px 0;
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
@@ -340,8 +341,7 @@
   font-size: 15px;
   line-height: 25px;
   border-radius: 50%;
-  background: -webkit-gradient(linear, left top, left bottom, from(#085A3D), to(#038941));
-  background: linear-gradient(180deg, #085A3D 0%, #038941 100%);
+  background: var(--purple);
 }
 .news__blog ol li:not(:last-child) {
   margin: 0 0 20px 0;
@@ -377,9 +377,8 @@
   line-height: 30px;
   color: var(--white);
   font-family: sans-serif;
-  border-radius: 8px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#085A3D), to(#038941));
-  background: linear-gradient(180deg, #085A3D 0%, #038941 100%);
+  border-radius: 2px;
+  background: var(--purple);
 }
 .news__blog ul li:not(:last-child) {
   margin: 0 0 15px 0;
@@ -391,9 +390,8 @@
 .news__blog blockquote {
   position: relative;
   padding: 85px 30px 20px;
-  border-radius: 8px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#085A3D), to(#038941));
-  background: linear-gradient(180deg, #085A3D 0%, #038941 100%);
+  border-radius: 2px;
+  background: var(--purple-grad-v1);
   color: var(--white);
   font-size: 15px;
   line-height: 30px;
@@ -409,7 +407,7 @@
   -ms-transform: scale(1, -1);
   transform: scale(1, -1);
   height: 18px;
-  color: #E7FD52;
+  color: var(--white);
   position: absolute;
   display: inline-block;
   top: 30px;
@@ -424,7 +422,7 @@
   -ms-transform: scale(-1, 1);
   transform: scale(-1, 1);
   height: 18px;
-  color: #E7FD52;
+  color: var(--white);
   position: absolute;
   display: inline-block;
   top: 40px;
@@ -432,7 +430,7 @@
 }
 
 .content-table {
-  border-radius: 20px;
+  border-radius: 4px;
   overflow-x: hidden;
 }
 .content-table table {
@@ -452,8 +450,7 @@
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background: -webkit-gradient(linear, left top, left bottom, from(#085A3D), to(#038941));
-  background: linear-gradient(180deg, #085A3D 0%, #038941 100%);
+  background: var(--purple-grad-v1);
 }
 .content-table table tr:first-child td {
   color: var(--white);
@@ -504,7 +501,7 @@
 .faq {
   padding: 30px;
   background: var(--white);
-  border-radius: 8px;
+  border-radius: 2px;
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   margin: 0 0 20px 0;
@@ -530,7 +527,7 @@
   font-family: var(--font-title);
   padding: 22px 55px 21px 20px;
   background: var(--white-bg);
-  border-radius: 8px;
+  border-radius: 2px;
   font-size: 18px;
   line-height: 27px;
   color: var(--black);
@@ -651,7 +648,7 @@
 }
 .author__row {
   padding: 30px;
-  border-radius: 8px;
+  border-radius: 2px;
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   display: -webkit-box;
@@ -719,7 +716,7 @@
   justify-content: center;
   width: 64px;
   height: 42px;
-  border-radius: 8px;
+  border-radius: 2px;
 }
 .author__social-item:not(:last-child) {
   margin: 0 10px 0 0;
@@ -759,7 +756,7 @@
 @media screen and (max-width: 600px) {
   .author__row {
     padding: 25px 15px;
-    border-radius: 8px;
+    border-radius: 2px;
   }
   .author__image {
     max-width: 70px;
@@ -1074,7 +1071,7 @@
   justify-content: center;
   width: 64px;
   height: 42px;
-  border-radius: 8px;
+  border-radius: 2px;
 }
 .footer__social-item svg {
   max-width: 100%;

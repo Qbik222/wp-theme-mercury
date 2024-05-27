@@ -14,6 +14,7 @@
   --purple3: #6202FE;
   --purple-dark: #13012A;
   --purple-gray: #71708D;
+  --purple-grad-v1: linear-gradient(180deg, #9A5EF5 0%, #B887FF 100%);
   --purple-grad: linear-gradient(270deg, rgba(72, 51, 107, 0.3) 0%, rgba(40, 29, 59, 0.3) 100%);
   --purple-grad-hover: linear-gradient(270deg, rgba(72, 51, 107, 0.5) 0%, rgba(40, 29, 59, 0.5) 100%);
   --blue-shade: #243A64;
@@ -101,7 +102,7 @@
   font-size: 13px;
   line-height: 22px;
   color: #D2E4DD;
-  border-radius: 8px;
+  border-radius: 2px;
   background: transparent;
   -webkit-transition: background-color 0.3s ease, color 0.3s ease, -webkit-box-shadow 0.3s ease;
   transition: background-color 0.3s ease, color 0.3s ease, -webkit-box-shadow 0.3s ease;
@@ -179,7 +180,7 @@
 .slot__item-info-text {
   display: none;
   padding: 15px;
-  border-radius: 8px;
+  border-radius: 2px;
   background: -webkit-gradient(linear, right top, left top, from(#0B764F), to(#0B764F));
   background: linear-gradient(270deg, #0B764F 0%, #0B764F 100%);
   color: var(--white);
@@ -198,7 +199,7 @@
   margin: 0 0 10px 0;
 }
 .slot__item-image img {
-  border-radius: 8px;
+  border-radius: 2px;
 }
 .slot__item-title {
   -webkit-box-flex: 1;
@@ -360,7 +361,7 @@
   font-size: 13px;
   line-height: 22px;
   color: #858585;
-  border-radius: 8px;
+  border-radius: 2px;
   background: transparent;
   -webkit-transition: background-color 0.3s ease, color 0.3s ease, -webkit-box-shadow 0.3s ease;
   transition: background-color 0.3s ease, color 0.3s ease, -webkit-box-shadow 0.3s ease;
@@ -438,7 +439,7 @@
 .bonus__item-info-text {
   display: none;
   padding: 15px;
-  border-radius: 8px;
+  border-radius: 2px;
   background: -webkit-gradient(linear, right top, left top, from(#0B764F), to(#0B764F));
   background: linear-gradient(270deg, #0B764F 0%, #0B764F 100%);
   color: var(--white);
@@ -457,7 +458,7 @@
   margin: 0 0 10px 0;
 }
 .bonus__item-image img {
-  border-radius: 8px;
+  border-radius: 2px;
 }
 .bonus__item-title {
   -webkit-box-flex: 1;
@@ -623,7 +624,7 @@
   font-size: 13px;
   line-height: 22px;
   color: #858585;
-  border-radius: 8px;
+  border-radius: 2px;
   background: transparent;
   -webkit-transition: background-color 0.3s ease, color 0.3s ease, -webkit-box-shadow 0.3s ease;
   transition: background-color 0.3s ease, color 0.3s ease, -webkit-box-shadow 0.3s ease;
@@ -703,7 +704,7 @@
   margin: 0 0 15px 0;
 }
 .blog__item-image img {
-  border-radius: 8px;
+  border-radius: 2px;
 }
 .blog__item-info {
   padding: 0 10px;
@@ -985,7 +986,7 @@
   font-size: 13px;
   line-height: 22px;
   color: #D2E4DD;
-  border-radius: 8px;
+  border-radius: 2px;
   background: transparent;
   -webkit-transition: background-color 0.3s ease, color 0.3s ease, -webkit-box-shadow 0.3s ease;
   transition: background-color 0.3s ease, color 0.3s ease, -webkit-box-shadow 0.3s ease;
@@ -1070,7 +1071,7 @@
   height: 46px;
   -o-object-fit: cover;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 2px;
 }
 .casino-online__item-info {
   -webkit-box-flex: 1;
@@ -1266,7 +1267,7 @@
   line-height: 30px;
   color: var(--white);
   font-family: sans-serif;
-  border-radius: 8px;
+  border-radius: 2px;
   background: -webkit-gradient(linear, left top, left bottom, from(#085A3D), to(#038941));
   background: linear-gradient(180deg, #085A3D 0%, #038941 100%);
 }
@@ -1280,7 +1281,7 @@
 .news__blog blockquote {
   position: relative;
   padding: 85px 30px 20px;
-  border-radius: 8px;
+  border-radius: 2px;
   background: -webkit-gradient(linear, left top, left bottom, from(#085A3D), to(#038941));
   background: linear-gradient(180deg, #085A3D 0%, #038941 100%);
   color: var(--white);
@@ -1553,7 +1554,7 @@
   font-family: var(--font-title);
   padding: 22px 55px 21px 20px;
   background: var(--white-bg);
-  border-radius: 8px;
+  border-radius: 2px;
   font-size: 18px;
   line-height: 27px;
   color: var(--black);
@@ -1676,7 +1677,7 @@
 }
 .author__row {
   padding: 30px;
-  border-radius: 8px;
+  border-radius: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1742,7 +1743,7 @@
   justify-content: center;
   width: 64px;
   height: 42px;
-  border-radius: 8px;
+  border-radius: 2px;
 }
 .author__social-item:not(:last-child) {
   margin: 0 10px 0 0;
@@ -2095,7 +2096,7 @@
   justify-content: center;
   width: 64px;
   height: 42px;
-  border-radius: 8px;
+  border-radius: 2px;
 }
 .footer__social-item svg {
   max-width: 100%;

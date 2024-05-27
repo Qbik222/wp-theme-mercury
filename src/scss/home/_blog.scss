@@ -56,7 +56,7 @@
       font-size: 13px;
       line-height: 22px;
       color: $gray;
-      border-radius: 8px;
+      border-radius: 2px;
       background: transparent;
       transition: background-color $transition, color $transition, box-shadow $transition;
 
@@ -134,7 +134,7 @@
       max-width: 340px;
       margin: 0 0 15px 0;
       img{
-        border-radius: 8px;
+        border-radius: 2px;
       }
     }
     &-info{

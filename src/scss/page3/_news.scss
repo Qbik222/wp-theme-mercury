@@ -1,7 +1,7 @@
 .news{
   background: var(--white);
   padding: 30px;
-  border-radius: 8px;
+  border-radius: 2px;
   margin: 0 0 20px 0;
   box-shadow: $shadow-text-3;
 
@@ -81,7 +81,7 @@
         font-size: 15px;
         line-height: 25px;
         border-radius: 50%;
-        background: $green-grad-2;
+        background: var(--purple);
       }
 
       &:not(:last-child) {
@@ -116,8 +116,8 @@
         line-height: 30px;
         color: var(--white);
         font-family: sans-serif;
-        border-radius: 8px;
-        background: $green-grad-2;
+        border-radius: 2px;
+        background: var(--purple);
       }
 
       &:not(:last-child) {
@@ -134,8 +134,8 @@
   blockquote {
     position: relative;
     padding: 85px 30px 20px;
-    border-radius: 8px;
-    background: $green-grad-2;
+    border-radius: 2px;
+    background: var(--purple-grad-v1);
     color: var(--white);
     font-size: 15px;
     line-height: 30px;
@@ -149,7 +149,7 @@
       line-height: 65px;
       transform: scale(1, -1);
       height: 18px;
-      color: $salad;
+      color: var(--white);
       position: absolute;
       display: inline-block;
       top: 30px;
@@ -163,7 +163,7 @@
       line-height: 65px;
       transform: scale(-1, 1);
       height: 18px;
-      color: $salad;
+      color: var(--white);
       position: absolute;
       display: inline-block;
       top: 40px;
@@ -174,7 +174,7 @@
 
 
 .content-table {
-  border-radius: 20px;
+  border-radius: 4px;
   overflow-x: hidden;
 
   table {
@@ -195,7 +195,7 @@
       padding-top: 12px;
       padding-bottom: 12px;
       text-align: left;
-      background: $green-grad-2;
+      background: var(--purple-grad-v1);
 
       td {
         color: var(--white);

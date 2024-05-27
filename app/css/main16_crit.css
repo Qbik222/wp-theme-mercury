@@ -13,6 +13,7 @@
   --purple3: #6202FE;
   --purple-dark: #13012A;
   --purple-gray: #71708D;
+  --purple-grad-v1: linear-gradient(180deg, #9A5EF5 0%, #B887FF 100%);
   --purple-grad: linear-gradient(270deg, rgba(72, 51, 107, 0.3) 0%, rgba(40, 29, 59, 0.3) 100%);
   --purple-grad-hover: linear-gradient(270deg, rgba(72, 51, 107, 0.5) 0%, rgba(40, 29, 59, 0.5) 100%);
   --blue-shade: #243A64;
@@ -1240,11 +1241,11 @@ body._lock {
   min-width: 280px;
   max-width: 280px;
   margin: 0 23px 0 0;
-  border-radius: 8px;
+  border-radius: 2px;
   position: relative;
 }
 .best__item-image img {
-  border-radius: 8px;
+  border-radius: 2px;
 }
 .best__item-image::before {
   counter-increment: my-counter;
@@ -1254,7 +1255,7 @@ body._lock {
   left: 0;
   font-family: var(--font-title);
   background: #E7FD52;
-  border-radius: 8px 0 8px 0;
+  border-radius: 2px 0 8px 0;
   width: 28px;
   height: 28px;
   display: -webkit-box;

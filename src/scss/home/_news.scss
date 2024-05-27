@@ -74,7 +74,7 @@
       font-size: 13px;
       line-height: 22px;
       color: $gray-text-on-green;
-      border-radius: 8px;
+      border-radius: 2px;
       background: transparent;
       transition: background-color $transition, color $transition, box-shadow $transition;
 
@@ -172,7 +172,7 @@
         width: 100px;
         height: 46px;
         object-fit: cover;
-        border-radius: 8px;
+        border-radius: 2px;
       }
     }
 
@@ -375,7 +375,7 @@
         line-height: 30px;
         color: var(--white);
         font-family: sans-serif;
-        border-radius: 8px;
+        border-radius: 2px;
         background: $green-grad-2;
       }
 
@@ -393,7 +393,7 @@
   blockquote {
     position: relative;
     padding: 85px 30px 20px;
-    border-radius: 8px;
+    border-radius: 2px;
     background: $green-grad-2;
     color: var(--white);
     font-size: 15px;

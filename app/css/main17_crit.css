@@ -14,6 +14,7 @@
   --purple3: #6202FE;
   --purple-dark: #13012A;
   --purple-gray: #71708D;
+  --purple-grad-v1: linear-gradient(180deg, #9A5EF5 0%, #B887FF 100%);
   --purple-grad: linear-gradient(270deg, rgba(72, 51, 107, 0.3) 0%, rgba(40, 29, 59, 0.3) 100%);
   --purple-grad-hover: linear-gradient(270deg, rgba(72, 51, 107, 0.5) 0%, rgba(40, 29, 59, 0.5) 100%);
   --blue-shade: #243A64;
@@ -1211,7 +1212,7 @@ body._lock {
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
   padding: 40px 50px;
   background: var(--white);
-  border-radius: 8px;
+  border-radius: 2px;
   margin: 0 40px 0 0;
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
@@ -1294,7 +1295,7 @@ body._lock {
   justify-content: center;
   width: 64px;
   height: 42px;
-  border-radius: 8px;
+  border-radius: 2px;
 }
 .contacts__social-item:not(:last-child) {
   margin: 0 10px 0 0;
@@ -1336,7 +1337,7 @@ body._lock {
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
   padding: 40px 30px 30px 30px;
   background: var(--white);
-  border-radius: 8px;
+  border-radius: 2px;
   min-width: 320px;
   max-width: 330px;
 }
@@ -1369,7 +1370,7 @@ body._lock {
   display: inline-block;
   width: 100%;
   background: var(--white-bg);
-  border-radius: 8px;
+  border-radius: 2px;
   padding: 10px 20px 8px;
   font-size: 15px;
   line-height: 30px;
@@ -1405,7 +1406,7 @@ body._lock {
   display: inline-block;
   width: 100%;
   background: var(--white-bg);
-  border-radius: 8px;
+  border-radius: 2px;
   padding: 10px 20px 8px;
   font-size: 15px;
   line-height: 30px;

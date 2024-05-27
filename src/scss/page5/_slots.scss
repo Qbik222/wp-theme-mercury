@@ -3,7 +3,7 @@
   flex-direction: column;
   background: var(--white);
   padding: 30px;
-  border-radius: 8px;
+  border-radius: 2px;
   box-shadow: $shadow-text-3;
   margin: 0 0 20px 0;
   &__title{
@@ -20,7 +20,7 @@
   }
   &__item{
     position: relative;
-    border-radius: 8px;
+    border-radius: 2px;
     overflow: hidden;
     max-width: 190px;
 
@@ -46,7 +46,7 @@
       opacity: 0;
       background: $green-transparent;
       backdrop-filter: blur(2px);
-      border-radius: 8px;
+      border-radius: 2px;
       position: absolute;
       padding: 15px;
       width: 100%;
