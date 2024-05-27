@@ -6,8 +6,8 @@
   &__wrap{
     background: var(--white);
     padding: 30px;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
     margin-bottom: 2px
   }
   &__nav{
@@ -16,11 +16,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: var(--gray);
+    color: var(--purple-gray);
     font-size: 14px;
     font-family: var(--font-main);
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
     &-btn{
       display: flex;
       align-items: center;
@@ -33,7 +33,7 @@
         width: 8px;
         border-radius: 2px;
         height: 1.4px;
-        background: var(--gray);
+        background: var(--purple-gray);
         transition: background .4s ease;
       }
       &::before{
