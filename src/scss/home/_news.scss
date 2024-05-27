@@ -50,7 +50,7 @@
     font-size: 20px;
     line-height: 30px;
     letter-spacing: -0.01em;
-    color: $white;
+    color: var(--white);
     margin: 0 0 10px 0;
     text-align: center;
     text-shadow: $shadow-text-2;
@@ -189,7 +189,7 @@
       font-size: 14px;
       line-height: 21px;
       letter-spacing: -0.004em;
-      color: $white;
+      color: var(--white);
       text-shadow: $shadow-text-2;
     }
 
@@ -206,7 +206,7 @@
         font-family: var(--font-main);
         font-size: 12px;
         line-height: 18px;
-        color: $white-hover;
+        color: var(--white);
         text-shadow: $shadow-text-2;
       }
     }
@@ -334,7 +334,7 @@
         align-items: center;
         justify-content: center;
         font-family: var(--font-title);
-        color: $white;
+        color: var(--white);
         min-width: 24px;
         min-height: 24px;
         font-size: 15px;
@@ -373,7 +373,7 @@
         height: 34px;
         font-size: 25px;
         line-height: 30px;
-        color: $white;
+        color: var(--white);
         font-family: sans-serif;
         border-radius: 8px;
         background: $green-grad-2;
@@ -395,7 +395,7 @@
     padding: 85px 30px 20px;
     border-radius: 8px;
     background: $green-grad-2;
-    color: $white;
+    color: var(--white);
     font-size: 15px;
     line-height: 30px;
     letter-spacing: 0.01em;
@@ -440,7 +440,7 @@
     border-collapse: collapse;
     width: 100%;
     margin: 0 0 20px 0;
-    background: $white;
+    background: var(--white);
 
     tr, td {
       border: 1px solid #ddd;
@@ -457,7 +457,7 @@
       background: $green-grad-2;
 
       td {
-        color: $white;
+        color: var(--white);
       }
 
     }

@@ -3,6 +3,21 @@
   color: var(--white);
   border-radius: 2px;
   text-transform: uppercase;
+  transition: background $transition;
+  &:hover{
+    background: #7E4ABD;
+  }
+}
+.transparent-btnV1{
+  font-family: var(--font-title);
+  text-transform: uppercase;
+  color: var(--black);
+  border-radius: 2px;
+  border: 1px solid var(--purple);
+  transition: background-color $transition;
+  &:hover{
+    background: var(--white);
+  }
 }
 
 .black-btn{
@@ -10,6 +25,10 @@
   border-radius: 2px;
   color: var(--white);
   text-transform: uppercase;
+  transition: background $transition;
+  &:hover{
+    background: #1A1721;
+  }
 
 
 }
@@ -32,11 +51,11 @@
   text-transform: uppercase;
   color: var(--black);
   border-radius: 100px;
-  background: $white;
+  background: var(--white);
   box-shadow: $shadow-text-3;
   transition: background-color $transition;
   &:hover{
-    background: $white-hover;
+    background: var(--white);
   }
 }
 
@@ -49,7 +68,7 @@
   border: 1px solid $gray-border-btn;
   transition: background-color $transition;
   &:hover{
-    background: $white-hover;
+    background: var(--white);
   }
 }
 
@@ -88,7 +107,7 @@
   box-shadow: $shadow-text-3;
   transition: background-color $transition;
   &:hover{
-    background: $white-hover;
+    background: var(--white);
   }
 }
 

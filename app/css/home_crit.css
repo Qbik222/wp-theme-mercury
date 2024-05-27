@@ -63,6 +63,24 @@
   color: var(--white);
   border-radius: 2px;
   text-transform: uppercase;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+.purpleV1-btn:hover {
+  background: #7E4ABD;
+}
+
+.transparent-btnV1 {
+  font-family: var(--font-title);
+  text-transform: uppercase;
+  color: var(--black);
+  border-radius: 2px;
+  border: 1px solid var(--purple);
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+.transparent-btnV1:hover {
+  background: var(--white);
 }
 
 .black-btn {
@@ -70,6 +88,11 @@
   border-radius: 2px;
   color: var(--white);
   text-transform: uppercase;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+.black-btn:hover {
+  background: #1A1721;
 }
 
 .burgundy-btn {
@@ -91,14 +114,14 @@
   text-transform: uppercase;
   color: var(--black);
   border-radius: 100px;
-  background: #FFFFFF;
+  background: var(--white);
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   -webkit-transition: background-color 0.3s ease;
   transition: background-color 0.3s ease;
 }
 .white-btn:hover {
-  background: #bdbbbb;
+  background: var(--white);
 }
 
 .transparent-btn {
@@ -111,7 +134,7 @@
   transition: background-color 0.3s ease;
 }
 .transparent-btn:hover {
-  background: #bdbbbb;
+  background: var(--white);
 }
 
 .transparent-salad-btn {
@@ -152,7 +175,7 @@
   transition: background-color 0.3s ease;
 }
 .grey-btn:hover {
-  background: #bdbbbb;
+  background: var(--white);
 }
 
 .grey-btn-two {
@@ -316,7 +339,7 @@ body {
   font-size: 20px;
   letter-spacing: 0.02em;
   color: var(--black);
-  background: #FFFFFF;
+  background: var(--white);
 }
 body._lock {
   overflow: hidden;
@@ -1064,7 +1087,7 @@ body._lock {
   font-family: var(--font-title);
   font-size: 38px;
   line-height: 54px;
-  color: #F7F6F4;
+  color: var(--white);
   margin: 0 0 30px 0;
   max-width: 420px;
   text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
@@ -1117,7 +1140,7 @@ body._lock {
   font-size: 14px;
   line-height: 21px;
   letter-spacing: -0.004em;
-  color: #FFFFFF;
+  color: var(--white);
   text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
 }
 .casino__item-reviews {
@@ -1136,7 +1159,7 @@ body._lock {
   font-family: var(--font-main);
   font-size: 12px;
   line-height: 18px;
-  color: #bdbbbb;
+  color: var(--white);
   text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
 }
 .casino__item-link {
@@ -1236,7 +1259,7 @@ body._lock {
   -ms-flex-align: center;
   align-items: center;
   padding: 0 28px;
-  background: #FFFFFF;
+  background: var(--white);
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   border-radius: 100px;
@@ -1339,7 +1362,7 @@ body._lock {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 12px;
-  background: #FFFFFF;
+  background: var(--white);
 }
 .best__item:not(:last-child) {
   margin: 0 0 10px 0;
@@ -1549,7 +1572,7 @@ body._lock {
   font-size: 13px;
   line-height: 16px;
   border-radius: 100px;
-  color: #FFFFFF;
+  color: var(--white);
   background: #7387BA;
 }
 .best__item-plus, .best__item-minus {
@@ -1656,7 +1679,7 @@ body._lock {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    background: #FFFFFF;
+    background: var(--white);
     margin: 0 !important;
   }
   .best__item-image {

@@ -1,5 +1,5 @@
 .feedback{
-  background: $white;
+  background: var(--white);
   padding: 30px;
   border-radius: 8px;
   box-shadow: $shadow-text-3;
@@ -172,7 +172,7 @@ input[type="checkbox"]:checked + .slider {
   left: 5px;
   width: 16px;
   height: 16px;
-  background-color: $white;
+  background-color: var(--white);
   border-radius: 50%;
   transition: transform 0.3s;
 

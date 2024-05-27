@@ -7,7 +7,7 @@
   &__info{
     box-shadow: $shadow-text-2;
     padding: 40px 50px;
-    background: $white;
+    background: var(--white);
     border-radius: 8px;
     margin: 0 40px 0 0;
     flex: 1 1 auto;
@@ -84,7 +84,7 @@
       svg{
         max-width: 100%;
         max-height: 100%;
-        fill: $white;
+        fill: var(--white);
       }
     }
     &-wrap{
@@ -108,7 +108,7 @@
     &-wrap{
       box-shadow: $shadow-text-2;
       padding: 40px 30px 30px 30px;
-      background: $white;
+      background: var(--white);
       border-radius: 8px;
       min-width: 320px;
       max-width: 330px;

@@ -6,7 +6,7 @@
     border-radius: 8px;
     display: flex;
     align-items: flex-start;
-    background: $white;
+    background: var(--white);
   }
   &__image{
     max-width: 130px;
@@ -63,7 +63,7 @@
       svg{
         max-width: 100%;
         max-height: 100%;
-        fill: $white;
+        fill: var(--white);
       }
     }
     &-wrap{

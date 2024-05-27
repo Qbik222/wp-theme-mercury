@@ -1,5 +1,5 @@
 .casino {
-  background: $white;
+  background: var(--white);
   filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.05));
 
   &__container {
@@ -212,7 +212,7 @@
 
 @media screen and (max-width: 600px) {
   .casino {
-    background: $white;
+    background: var(--white);
 
     &__breadcrumbs {
       margin: 0 0 10px 0;

@@ -1,6 +1,6 @@
 .author{
   padding: 30px;
-  background: $white;
+  background: var(--white);
   border-radius: 8px;
   margin: 0 0 20px 0;
   box-shadow: $shadow-text-3;
@@ -56,7 +56,7 @@
       svg{
         max-width: 100%;
         max-height: 100%;
-        fill: $white;
+        fill: var(--white);
       }
     }
     &-wrap{
@@ -96,7 +96,7 @@
     border-collapse: collapse;
     width: 100%;
     margin: 0 0 20px 0;
-    background: $white;
+    background: var(--white);
 
     tr, td {
       border: 1px solid #ddd;
@@ -113,7 +113,7 @@
       background: $green-grad-2;
 
       td {
-        color: $white;
+        color: var(--white);
       }
 
     }
@@ -205,7 +205,7 @@
         align-items: center;
         justify-content: center;
         font-family: var(--font-title);
-        color: $white;
+        color: var(--white);
         min-width: 24px;
         min-height: 24px;
         font-size: 15px;
@@ -244,7 +244,7 @@
         height: 34px;
         font-size: 25px;
         line-height: 30px;
-        color: $white;
+        color: var(--white);
         font-family: sans-serif;
         border-radius: 8px;
         background: $green-grad-2;
@@ -266,7 +266,7 @@
     padding: 85px 30px 20px;
     border-radius: 8px;
     background: $green-grad-2;
-    color: $white;
+    color: var(--white);
     font-size: 15px;
     line-height: 30px;
     letter-spacing: 0.01em;

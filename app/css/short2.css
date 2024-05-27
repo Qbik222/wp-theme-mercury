@@ -46,7 +46,7 @@
   flex-direction: column;
   padding: 20px;
   border-radius: 12px;
-  background: #FFFFFF;
+  background: var(--white);
   position: relative;
   max-width: 330px;
 }
@@ -62,7 +62,7 @@
   border-radius: 8px;
   background: -webkit-gradient(linear, right top, left top, from(#0B764F), to(#0B764F));
   background: linear-gradient(270deg, #0B764F 0%, #0B764F 100%);
-  color: #FFFFFF;
+  color: var(--white);
   width: 150px;
   position: absolute;
   top: 50px;

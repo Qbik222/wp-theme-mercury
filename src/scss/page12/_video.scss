@@ -1,6 +1,6 @@
 .video{
   padding: 50px 0;
-  background: $white;
+  background: var(--white);
   &__info{
     display: flex;
     align-items: center;
@@ -21,7 +21,7 @@
     justify-content: center;
     align-items: center;
     padding: 0 28px;
-    background: $white;
+    background: var(--white);
     border: 1px solid $gray-border-btn;
     border-radius: 100px;
     &-item {

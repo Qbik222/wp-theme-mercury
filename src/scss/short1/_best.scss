@@ -39,7 +39,7 @@
     align-items: center;
     border-radius: 12px;
     flex-direction: column;
-    background: $white;
+    background: var(--white);
 
 
     &-link_wrap {
@@ -232,7 +232,7 @@
         font-size: 13px;
         line-height: 20px;
         border-radius: 8px;
-        color: $white;
+        color: var(--white);
         background: $purple;
 
       }

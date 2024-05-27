@@ -6,7 +6,7 @@
     max-width: 580px;
   }
   &__title{
-    color: $white;
+    color: var(--white);
     text-shadow: $shadow-text-2;
     margin: 0 0 10px 0;
   }
@@ -28,7 +28,7 @@
   &__email{
     width: 100%;
     border-radius: 100px;
-    background: $white;
+    background: var(--white);
     padding: 10px 19px 8px;
     font-family: var(--font-main);
     box-shadow: $shadow-text-2;

@@ -5,7 +5,7 @@
   &__subtext{
     margin: 0 0 60px 0;
     p{
-      color: $white;
+      color: var(--white);
       font-size: 15px;
       line-height: 20px;
       &:not(:last-child){
@@ -21,7 +21,7 @@
     font-size: 24px;
     line-height: 24px;
     text-transform: uppercase;
-    color: $white;
+    color: var(--white);
     margin: 0 0 45px 0;
     img{
       margin: 0 10px 0 0;
@@ -53,7 +53,7 @@
 
     &-title {
       font-family: var(--font-title);
-      color: $white;
+      color: var(--white);
       font-size: 17px;
       line-height: 22px;
       letter-spacing: 0.04em;
@@ -68,7 +68,7 @@
       transition: color $transition;
 
       &:hover {
-        color: $white;
+        color: var(--white);
       }
 
       &:not(:last-child) {
@@ -93,7 +93,7 @@
       display: flex;
       flex-direction: column;
       &-text{
-        color: $white;
+        color: var(--white);
         font-size: 17px;
         line-height: 22px;
         margin: 0 0 8px 0;
@@ -106,7 +106,7 @@
         transition: color .3s ease;
         &:hover{
           text-decoration: underline;
-          color: $white;
+          color: var(--white);
         }
       }
     }
@@ -122,7 +122,7 @@
       svg {
         max-width: 100%;
         max-height: 100%;
-        fill: $white;
+        fill: var(--white);
       }
     }
   }
@@ -154,7 +154,7 @@
 
     &-link {
       white-space: nowrap;
-      color: $white;
+      color: var(--white);
       text-decoration: underline;
     }
   }
@@ -164,7 +164,7 @@
     position: fixed;
     width: 80%;
     padding: 20px 40px;
-    border: 1px solid $white;
+    border: 1px solid var(--white);
     background: $green-grad-2;
     z-index: 10;
     bottom: 30px;
@@ -186,7 +186,7 @@
       align-items: center;
       justify-content: center;
       border-radius: 50%;
-      border: 1px solid $white;
+      border: 1px solid var(--white);
       background: $green-grad-2;
       span{
         position: relative;
@@ -201,7 +201,7 @@
           left: 50%;
           width: 60%;
           height: 2px;
-          background-color: $white;
+          background-color: var(--white);
         }
         &::before {
           transform: translate(-50%, -50%) rotate(45deg);
@@ -234,7 +234,7 @@
       font-size: 13px;
       line-height: 16px;
       letter-spacing: 0.01em;
-      color: $white;
+      color: var(--white);
       flex: 1 1 auto;
       margin: 0 21px 0 0;
     }
@@ -264,7 +264,7 @@
   //    height: 0;
   //    border-style: solid;
   //    border-width: 0 9px 14px;
-  //    border-color: transparent transparent $white;
+  //    border-color: transparent transparent var(--white);
   //
   //  }
   //  &._hidden {

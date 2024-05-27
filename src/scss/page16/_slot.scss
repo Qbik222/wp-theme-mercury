@@ -9,7 +9,7 @@
 
   &__title {
     margin: 0 0 10px 0;
-    color: $white;
+    color: var(--white);
     text-shadow: $shadow-text-2;
     text-align: center;
   }
@@ -48,7 +48,7 @@
     flex-direction: column;
     padding: 20px;
     border-radius: 12px;
-    background: $white;
+    background: var(--white);
     position: relative;
     max-width: 330px;
 
@@ -62,7 +62,7 @@
         padding: 15px;
         border-radius: 8px;
         background: $green-grad;
-        color: $white;
+        color: var(--white);
         width: 150px;
         position: absolute;
         top: 35px;

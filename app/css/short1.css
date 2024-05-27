@@ -70,7 +70,7 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  background: #FFFFFF;
+  background: var(--white);
 }
 .casino-best__item-link_wrap {
   display: -webkit-box;
@@ -292,7 +292,7 @@
   font-size: 13px;
   line-height: 20px;
   border-radius: 8px;
-  color: #FFFFFF;
+  color: var(--white);
   background: #7387BA;
 }
 .casino-best__item-plus, .casino-best__item-minus {

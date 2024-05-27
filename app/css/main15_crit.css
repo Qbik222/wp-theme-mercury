@@ -64,6 +64,24 @@
   color: var(--white);
   border-radius: 2px;
   text-transform: uppercase;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+.purpleV1-btn:hover {
+  background: #7E4ABD;
+}
+
+.transparent-btnV1 {
+  font-family: var(--font-title);
+  text-transform: uppercase;
+  color: var(--black);
+  border-radius: 2px;
+  border: 1px solid var(--purple);
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+.transparent-btnV1:hover {
+  background: var(--white);
 }
 
 .black-btn {
@@ -71,6 +89,11 @@
   border-radius: 2px;
   color: var(--white);
   text-transform: uppercase;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+.black-btn:hover {
+  background: #1A1721;
 }
 
 .burgundy-btn {
@@ -92,14 +115,14 @@
   text-transform: uppercase;
   color: var(--black);
   border-radius: 100px;
-  background: #FFFFFF;
+  background: var(--white);
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   -webkit-transition: background-color 0.3s ease;
   transition: background-color 0.3s ease;
 }
 .white-btn:hover {
-  background: #bdbbbb;
+  background: var(--white);
 }
 
 .transparent-btn {
@@ -112,7 +135,7 @@
   transition: background-color 0.3s ease;
 }
 .transparent-btn:hover {
-  background: #bdbbbb;
+  background: var(--white);
 }
 
 .transparent-salad-btn {
@@ -153,7 +176,7 @@
   transition: background-color 0.3s ease;
 }
 .grey-btn:hover {
-  background: #bdbbbb;
+  background: var(--white);
 }
 
 .grey-btn-two {
@@ -317,7 +340,7 @@ body {
   font-size: 20px;
   letter-spacing: 0.02em;
   color: var(--black);
-  background: #FFFFFF;
+  background: var(--white);
 }
 body._lock {
   overflow: hidden;
@@ -1057,7 +1080,7 @@ body._lock {
   transition: color 0.3s ease;
 }
 .casino__breadcrumbs-link:hover {
-  color: #FFFFFF;
+  color: var(--white);
 }
 .casino__breadcrumbs-link:last-child:hover {
   color: #D2E4DD;
@@ -1082,7 +1105,7 @@ body._lock {
 .casino__title {
   font-family: var(--font-title);
   text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
-  color: #FFFFFF;
+  color: var(--white);
   font-size: 38px;
   line-height: 54px;
   margin: 0 0 10px 0;
@@ -1116,7 +1139,7 @@ body._lock {
 .casino__date-item-data {
   font-size: 12px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: var(--white);
   text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
 }
 
@@ -1233,7 +1256,7 @@ body._lock {
   font-size: 20px;
   line-height: 48px;
   letter-spacing: -0.01em;
-  color: #FFFFFF;
+  color: var(--white);
   margin: 0 0 10px 0;
   text-align: center;
   text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
@@ -1368,7 +1391,7 @@ body._lock {
   font-size: 14px;
   line-height: 21px;
   letter-spacing: -0.004em;
-  color: #FFFFFF;
+  color: var(--white);
   text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
 }
 .casino-online__item-reviews {
@@ -1387,7 +1410,7 @@ body._lock {
   font-family: var(--font-main);
   font-size: 12px;
   line-height: 18px;
-  color: #bdbbbb;
+  color: var(--white);
   text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
 }
 .casino-online__item-link {
@@ -1498,7 +1521,7 @@ body._lock {
   -ms-flex-pack: center;
   justify-content: center;
   font-family: var(--font-title);
-  color: #FFFFFF;
+  color: var(--white);
   min-width: 24px;
   min-height: 24px;
   font-size: 15px;
@@ -1539,7 +1562,7 @@ body._lock {
   height: 34px;
   font-size: 25px;
   line-height: 30px;
-  color: #FFFFFF;
+  color: var(--white);
   font-family: sans-serif;
   border-radius: 8px;
   background: -webkit-gradient(linear, left top, left bottom, from(#085A3D), to(#038941));
@@ -1558,7 +1581,7 @@ body._lock {
   border-radius: 8px;
   background: -webkit-gradient(linear, left top, left bottom, from(#085A3D), to(#038941));
   background: linear-gradient(180deg, #085A3D 0%, #038941 100%);
-  color: #FFFFFF;
+  color: var(--white);
   font-size: 15px;
   line-height: 30px;
   letter-spacing: 0.01em;
@@ -1603,7 +1626,7 @@ body._lock {
   border-collapse: collapse;
   width: 100%;
   margin: 0 0 20px 0;
-  background: #FFFFFF;
+  background: var(--white);
 }
 .content-table table tr, .content-table table td {
   border: 1px solid #ddd;
@@ -1620,7 +1643,7 @@ body._lock {
   background: linear-gradient(180deg, #085A3D 0%, #038941 100%);
 }
 .content-table table tr:first-child td {
-  color: #FFFFFF;
+  color: var(--white);
 }
 
 @media screen and (max-width: 1024px) {

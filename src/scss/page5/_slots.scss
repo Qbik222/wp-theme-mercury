@@ -1,7 +1,7 @@
 .slots{
   display: flex;
   flex-direction: column;
-  background: $white;
+  background: var(--white);
   padding: 30px;
   border-radius: 8px;
   box-shadow: $shadow-text-3;
@@ -65,7 +65,7 @@
       font-family: var(--font-title);
       font-size: 17px;
       line-height: 20px;
-      color: $white;
+      color: var(--white);
     }
     &-text{
       font-size: 13px;

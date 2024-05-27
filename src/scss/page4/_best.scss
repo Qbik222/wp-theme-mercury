@@ -36,7 +36,7 @@
     justify-content: center;
     align-items: center;
     padding: 0 28px;
-    background: $white;
+    background: var(--white);
     box-shadow: $shadow-text-3;
     border-radius: 100px;
     &-item {
@@ -119,7 +119,7 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background: $white;
+    background: var(--white);
     box-shadow: $shadow-text-3;
     border-radius: 12px;
     max-width: 290px;

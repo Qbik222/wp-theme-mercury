@@ -1,5 +1,5 @@
 .blog{
-  background: $white;
+  background: var(--white);
   padding: 50px 0;
   &__container{
     display: flex;
@@ -33,7 +33,7 @@
     justify-content: center;
     align-items: center;
     padding: 0 28px;
-    background: $white;
+    background: var(--white);
     border: 1px solid $gray-border-btn;
     border-radius: 100px;
     &-item {

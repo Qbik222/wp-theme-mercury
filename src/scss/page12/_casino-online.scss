@@ -27,7 +27,7 @@
     font-size: 20px;
     line-height: 30px;
     letter-spacing: -0.01em;
-    color: $white;
+    color: var(--white);
     margin: 0 0 10px 0;
     text-align: center;
     text-shadow: $shadow-text-2;
@@ -166,7 +166,7 @@
       font-size: 14px;
       line-height: 21px;
       letter-spacing: -0.004em;
-      color: $white;
+      color: var(--white);
       text-shadow: $shadow-text-2;
     }
 
@@ -183,7 +183,7 @@
         font-family: var(--font-main);
         font-size: 12px;
         line-height: 18px;
-        color: $white-hover;
+        color: var(--white);
         text-shadow: $shadow-text-2;
       }
     }

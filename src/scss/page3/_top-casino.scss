@@ -8,32 +8,49 @@
   }
   &__all-link{
     align-self: center ;
-    display: inline-block;
-    padding: 11px 40px 10px;
+    padding: 11px 20px 10px;
+    width: 100%;
     font-size: 17px;
     line-height: 20px;
     letter-spacing: 0.02em;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    &::before, &::after{
+      order: 2;
+      content: "";
+      display: block;
+      position: relative;
+      width: 6px;
+      height: 1px;
+      border-radius: 2px;
+      background: var(--black);
+    }
+    &::before{
+      margin: 0 0 0 auto;
+      transform: rotate(-45deg);
+    }
+    &::after{
+      transform: rotate(45deg);
+      top: -4px;
+      left: -6px;
+    }
   }
   &__title{
     font-family: var(--font-title);
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 28px;
+    line-height: 28px;
     letter-spacing: -0.01em;
     color: var(--black);
     margin: 0 0 10px 0;
-    text-align: center;
+    text-align: start;
   }
 
   &__tabs {
     width: 100%;
     display: flex;
     align-items: center;
-    background: $white;
-    border-radius: 100px;
-    padding: 0 28px;
     margin: 0 0 20px 0;
-    box-shadow: $shadow-text-3;
 
     &-btn {
       width: calc(50% - 2.5px);
@@ -43,31 +60,18 @@
       padding: 9px 0;
       font-size: 13px;
       line-height: 22px;
-      color: $gray;
-      border-radius: 8px;
-      background: transparent;
-      transition: background-color $transition, color $transition, box-shadow $transition;
-
-      &::after{
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 2px;
-        background: $green;
-        border-radius: 100px;
-        opacity: 0;
-        transition: opacity $transition;
-      }
+      background: var(--white);
+      color: var(--gray);
+      border-radius: 2px;
       &::before{
         content: '';
         position: absolute;
         bottom: 2px;
-        left: 0;
-        width: 100%;
-        height: 2px;
-        background: $salad;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60%;
+        height: 4px;
+        background: var(--purple);
         border-radius: 100px;
         opacity: 0;
         transition: opacity $transition;
@@ -136,7 +140,7 @@
         width: 100px;
         height: 46px;
         object-fit: cover;
-        border-radius: 8px;
+        border-radius: 2px;
       }
     }
     &-info{

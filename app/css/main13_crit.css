@@ -64,6 +64,24 @@
   color: var(--white);
   border-radius: 2px;
   text-transform: uppercase;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+.purpleV1-btn:hover {
+  background: #7E4ABD;
+}
+
+.transparent-btnV1 {
+  font-family: var(--font-title);
+  text-transform: uppercase;
+  color: var(--black);
+  border-radius: 2px;
+  border: 1px solid var(--purple);
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+.transparent-btnV1:hover {
+  background: var(--white);
 }
 
 .black-btn {
@@ -71,6 +89,11 @@
   border-radius: 2px;
   color: var(--white);
   text-transform: uppercase;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+.black-btn:hover {
+  background: #1A1721;
 }
 
 .burgundy-btn {
@@ -92,14 +115,14 @@
   text-transform: uppercase;
   color: var(--black);
   border-radius: 100px;
-  background: #FFFFFF;
+  background: var(--white);
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   -webkit-transition: background-color 0.3s ease;
   transition: background-color 0.3s ease;
 }
 .white-btn:hover {
-  background: #bdbbbb;
+  background: var(--white);
 }
 
 .transparent-btn {
@@ -112,7 +135,7 @@
   transition: background-color 0.3s ease;
 }
 .transparent-btn:hover {
-  background: #bdbbbb;
+  background: var(--white);
 }
 
 .transparent-salad-btn {
@@ -153,7 +176,7 @@
   transition: background-color 0.3s ease;
 }
 .grey-btn:hover {
-  background: #bdbbbb;
+  background: var(--white);
 }
 
 .grey-btn-two {
@@ -1096,7 +1119,7 @@ body._lock {
   font-family: var(--font-title);
   font-size: 20px;
   line-height: 28px;
-  color: #FFFFFF;
+  color: var(--white);
   margin: 0 0 15px 0;
 }
 .blog__tabs {
@@ -1226,13 +1249,13 @@ body._lock {
   font-size: 15px;
   line-height: 28px;
   letter-spacing: 0.01em;
-  color: #FFFFFF;
+  color: var(--white);
   margin: 0 0 5px 0;
 }
 .blog__item time {
   font-size: 15px;
   line-height: 22px;
-  color: #FFFFFF;
+  color: var(--white);
 }
 
 @media screen and (max-width: 1024px) {
@@ -1392,7 +1415,7 @@ body._lock {
   -ms-flex-align: center;
   align-items: center;
   padding: 10px;
-  background: #FFFFFF;
+  background: var(--white);
 }
 .author__name-image {
   max-width: 60px;
@@ -1464,7 +1487,7 @@ body._lock {
 .author__social-item svg {
   max-width: 100%;
   max-height: 100%;
-  fill: #FFFFFF;
+  fill: var(--white);
 }
 
 @media screen and (max-width: 1024px) {
@@ -1541,7 +1564,7 @@ body._lock {
   }
 }
 .news {
-  background: #FFFFFF;
+  background: var(--white);
   padding: 30px;
   border-radius: 8px;
   margin: 0 0 20px 0;
@@ -1616,7 +1639,7 @@ body._lock {
   -ms-flex-pack: center;
   justify-content: center;
   font-family: var(--font-title);
-  color: #FFFFFF;
+  color: var(--white);
   min-width: 24px;
   min-height: 24px;
   font-size: 15px;
@@ -1657,7 +1680,7 @@ body._lock {
   height: 34px;
   font-size: 25px;
   line-height: 30px;
-  color: #FFFFFF;
+  color: var(--white);
   font-family: sans-serif;
   border-radius: 8px;
   background: -webkit-gradient(linear, left top, left bottom, from(#085A3D), to(#038941));
@@ -1676,7 +1699,7 @@ body._lock {
   border-radius: 8px;
   background: -webkit-gradient(linear, left top, left bottom, from(#085A3D), to(#038941));
   background: linear-gradient(180deg, #085A3D 0%, #038941 100%);
-  color: #FFFFFF;
+  color: var(--white);
   font-size: 15px;
   line-height: 30px;
   letter-spacing: 0.01em;
@@ -1721,7 +1744,7 @@ body._lock {
   border-collapse: collapse;
   width: 100%;
   margin: 0 0 20px 0;
-  background: #FFFFFF;
+  background: var(--white);
 }
 .content-table table tr, .content-table table td {
   border: 1px solid #ddd;
@@ -1738,7 +1761,7 @@ body._lock {
   background: linear-gradient(180deg, #085A3D 0%, #038941 100%);
 }
 .content-table table tr:first-child td {
-  color: #FFFFFF;
+  color: var(--white);
 }
 
 @media screen and (max-width: 1024px) {

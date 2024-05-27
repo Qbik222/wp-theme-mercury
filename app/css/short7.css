@@ -75,7 +75,7 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  background: #FFFFFF;
+  background: var(--white);
   width: 100%;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -156,7 +156,7 @@
   justify-content: center;
   font-size: 16px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: var(--white);
 }
 .casino-bonus__item-info {
   display: -webkit-box;
@@ -275,7 +275,7 @@
   font-size: 13px;
   line-height: 16px;
   border-radius: 100px;
-  color: #FFFFFF;
+  color: var(--white);
   background: #7387BA;
 }
 .casino-bonus__item-textInfo {
@@ -393,7 +393,7 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    background: #FFFFFF;
+    background: var(--white);
   }
   .casino-bonus__item:not(:last-child) {
     margin: 0;

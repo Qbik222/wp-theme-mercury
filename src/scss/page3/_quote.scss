@@ -36,7 +36,7 @@
     line-height: 30px;
     letter-spacing: 0.01em;
     font-style: italic;
-    color: $white;
+    color: var(--white);
   }
   &__info{
     display: flex;
@@ -62,12 +62,12 @@
       &-name{
         font-size: 15px;
         line-height: 20px;
-        color: $white;
+        color: var(--white);
       }
       &-date{
         font-size: 11px;
         line-height: 20px;
-        color: $white;
+        color: var(--white);
       }
     }
   }

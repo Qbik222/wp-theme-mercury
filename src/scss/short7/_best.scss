@@ -38,7 +38,7 @@
     //min-width: 310px;
     //max-width: 100%;
     flex-direction: column;
-    background: $white;
+    background: var(--white);
     width: 100%;
     align-items: center;
     border-radius: 12px;
@@ -100,7 +100,7 @@
         justify-content: center;
         font-size: 16px;
         line-height: 20px;
-        color: $white;
+        color: var(--white);
       }
     }
 
@@ -201,7 +201,7 @@
         font-size: 13px;
         line-height: 16px;
         border-radius: 100px;
-        color: $white;
+        color: var(--white);
         background: $purple;
 
       }
@@ -320,7 +320,7 @@
       min-width: 310px;
       max-width: 100%;
       flex-direction: column;
-      background: $white;
+      background: var(--white);
 
       &:not(:last-child){
         margin: 0;
