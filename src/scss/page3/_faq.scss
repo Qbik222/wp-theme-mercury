@@ -6,7 +6,7 @@
   margin: 0 0 20px 0;
   &__title{
     text-align: start;
-    color: $black;
+    color: var(--black);
     margin: 0 0 25px 0;
   }
 }
@@ -23,11 +23,11 @@
   align-items: center;
   font-family: var(--font-title);
   padding: 22px 55px 21px 20px;
-  background: $white-bg;
+  background: var(--white-bg);
   border-radius: 8px;
   font-size: 18px;
   line-height: 27px;
-  color: $black;
+  color: var(--black);
   cursor: pointer;
   transition: background-color $transition;
   &::after {

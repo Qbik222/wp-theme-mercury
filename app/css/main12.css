@@ -3,6 +3,7 @@
   --font-title: "Popins-semb", sans-serif;
   --green-light: #BBFF85;
   --white: #FFFFFF;
+  --white-bg: #F3F5F6;
   --black: #0E0C14;
   --black2: #0D0F20;
   --header-input-bg: rgba(154, 94, 245, 0.15);
@@ -15,6 +16,7 @@
   --purple-grad-hover: linear-gradient(270deg, rgba(72, 51, 107, 0.5) 0%, rgba(40, 29, 59, 0.5) 100%);
   --blue-shade: #243A64;
   --blue-gray: #C1C1D4;
+  --blue: #1F4AD8;
   --gray: #8E8E98;
   --second-gray: #ECEAF0;
   --red: #C0281C;
@@ -283,7 +285,7 @@
   font-family: var(--font-title);
   font-size: 20px;
   line-height: 27px;
-  color: #151A18;
+  color: var(--black);
   margin: 0 15px 0 0;
 }
 .top__tabs {
@@ -358,7 +360,7 @@
   transition: opacity 0.3s ease;
 }
 .top__tabs-btn:hover {
-  color: #151A18;
+  color: var(--black);
 }
 .top__tabs-btn:hover::after, .top__tabs-btn:hover::before {
   opacity: 1;
@@ -367,7 +369,7 @@
   opacity: 1;
 }
 .top__tabs-btn._active {
-  color: #151A18;
+  color: var(--black);
 }
 .top__list {
   display: -ms-grid;
@@ -416,13 +418,13 @@
   font-size: 15px;
   line-height: 28px;
   letter-spacing: 0.01em;
-  color: #151A18;
+  color: var(--black);
   margin: 0 0 5px 0;
 }
 .top__item time {
   font-size: 15px;
   line-height: 22px;
-  color: #151A18;
+  color: var(--black);
 }
 
 @media screen and (max-width: 1024px) {
@@ -477,7 +479,7 @@
   font-family: var(--font-title);
   font-size: 20px;
   line-height: 27px;
-  color: #151A18;
+  color: var(--black);
   margin: 0 15px 0 0;
 }
 .video__tabs {
@@ -551,7 +553,7 @@
   transition: opacity 0.3s ease;
 }
 .video__tabs-btn:hover {
-  color: #151A18;
+  color: var(--black);
 }
 .video__tabs-btn:hover::after, .video__tabs-btn:hover::before {
   opacity: 1;
@@ -560,7 +562,7 @@
   opacity: 1;
 }
 .video__tabs-btn._active {
-  color: #151A18;
+  color: var(--black);
 }
 .video__list {
   display: -webkit-box;
@@ -616,7 +618,7 @@
   font-size: 15px;
   line-height: 28px;
   letter-spacing: 0.01em;
-  color: #151A18;
+  color: var(--black);
   margin: 0 0 5px 0;
 }
 .video__item time {
@@ -714,27 +716,27 @@
 .subscribe__email::-webkit-input-placeholder {
   font-size: 15px;
   line-height: 30px;
-  color: #151A18;
+  color: var(--black);
 }
 .subscribe__email::-moz-placeholder {
   font-size: 15px;
   line-height: 30px;
-  color: #151A18;
+  color: var(--black);
 }
 .subscribe__email:-ms-input-placeholder {
   font-size: 15px;
   line-height: 30px;
-  color: #151A18;
+  color: var(--black);
 }
 .subscribe__email::-ms-input-placeholder {
   font-size: 15px;
   line-height: 30px;
-  color: #151A18;
+  color: var(--black);
 }
 .subscribe__email::placeholder {
   font-size: 15px;
   line-height: 30px;
-  color: #151A18;
+  color: var(--black);
 }
 .subscribe__submit {
   padding: 12px 25px 10px;
@@ -800,7 +802,7 @@
 }
 .footer {
   padding: 50px 0 30px 0;
-  background: #151A18;
+  background: var(--black);
 }
 .footer__subtext {
   margin: 0 0 60px 0;

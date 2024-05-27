@@ -21,7 +21,7 @@
           font-family: var(--font-title);
           font-size: 17px;
           line-height: 20px;
-          color: $black;
+          color: var(--black);
           margin: 0 0 5px 0;
         }
         &:nth-child(2){
@@ -37,7 +37,7 @@
     p{
       font-size: 15px;
       line-height: 30px;
-      color: $black;
+      color: var(--black);
     }
   }
   &__social{
@@ -67,7 +67,7 @@
     &-text{
       font-size: 13px;
       line-height: 20px;
-      color: $black;
+      color: var(--black);
       margin: 0 0 10px 0;
     }
 
@@ -101,7 +101,7 @@
     tr, td {
       border: 1px solid #ddd;
       padding: 15px;
-      color: $black;
+      color: var(--black);
       font-size: 15px;
       line-height: 20px;
     }
@@ -138,7 +138,7 @@
 
 .news__blog {
   a{
-    color: $black;
+    color: var(--black);
     text-decoration: underline;
     &:hover{
       text-decoration: none;
@@ -148,14 +148,14 @@
     font-family: var(--font-title);
     font-size: 28px;
     line-height: 48px;
-    color: $black;
+    color: var(--black);
     margin: 0 0 10px 0;
   }
 
   h3, h4, h5, h6 {
     font-family: var(--font-title);
     letter-spacing: -0.01em;
-    color: $black;
+    color: var(--black);
   }
 
   h3 {
@@ -183,7 +183,7 @@
     font-size: 15px;
     line-height: 30px;
     margin: 0 0 20px 0;
-    color: $black;
+    color: var(--black);
   }
 
   ol {
@@ -220,7 +220,7 @@
 
       p {
         margin: 0;
-        color: $black;
+        color: var(--black);
       }
     }
   }
@@ -256,7 +256,7 @@
 
       p {
         margin: 0;
-        color: $black;
+        color: var(--black);
       }
     }
   }

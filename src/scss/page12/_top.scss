@@ -23,7 +23,7 @@
     font-family: var(--font-title);
     font-size: 20px;
     line-height: 27px;
-    color: $black;
+    color: var(--black);
     margin: 0 15px 0 0;
   }
 
@@ -84,7 +84,7 @@
         transition: opacity $transition;
       }
       &:hover {
-        color: $black;
+        color: var(--black);
       }
       &:hover::after,
       &:hover::before{
@@ -97,7 +97,7 @@
       }
 
       &._active {
-        color: $black;
+        color: var(--black);
       }
 
     }
@@ -146,14 +146,14 @@
       font-size: 15px;
       line-height: 28px;
       letter-spacing: 0.01em;
-      color: $black;
+      color: var(--black);
       margin: 0 0 5px 0;
     }
 
     time{
       font-size: 15px;
       line-height: 22px;
-      color: $black;
+      color: var(--black);
     }
   }
 

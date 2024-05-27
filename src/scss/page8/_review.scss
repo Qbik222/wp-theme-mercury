@@ -10,7 +10,7 @@
   &__text{
     font-size: 15px;
     line-height: 30px;
-    color: $black;
+    color: var(--black);
     margin: 0 0 20px 0;
   }
 
@@ -20,10 +20,10 @@
   }
 
   &__item{
-    border-top: 1px solid $white-bg;
+    border-top: 1px solid var(--white-bg);
     font-size: 14px;
     line-height: 20px;
-    color: $black;
+    color: var(--black);
     display: grid;
     padding: 20px 0;
     grid-template-columns: 40% 60%;

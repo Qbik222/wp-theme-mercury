@@ -30,7 +30,7 @@
 .white-btn{
   font-family: var(--font-title);
   text-transform: uppercase;
-  color: $black;
+  color: var(--black);
   border-radius: 100px;
   background: $white;
   box-shadow: $shadow-text-3;
@@ -44,7 +44,7 @@
 .transparent-btn{
   font-family: var(--font-title);
   text-transform: uppercase;
-  color: $black;
+  color: var(--black);
   border-radius: 100px;
   border: 1px solid $gray-border-btn;
   transition: background-color $transition;
@@ -83,8 +83,8 @@
   font-family: var(--font-title);
   text-transform: uppercase;
   border-radius: 100px;
-  color: $black;
-  background: $white-bg;
+  color: var(--black);
+  background: var(--white-bg);
   box-shadow: $shadow-text-3;
   transition: background-color $transition;
   &:hover{

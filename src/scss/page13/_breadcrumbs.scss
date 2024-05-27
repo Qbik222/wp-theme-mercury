@@ -16,7 +16,7 @@
     position: relative;
     font-size: 12px;
     line-height: 20px;
-    color: $black;
+    color: var(--black);
     transition: color $transition;
 
     &:hover {
@@ -24,7 +24,7 @@
     }
 
     &:last-child:hover{
-      color: $black;
+      color: var(--black);
     }
 
     &:not(:last-child) {
@@ -35,7 +35,7 @@
         position: absolute;
         font-size: 12px;
         line-height: 20px;
-        color: $black;
+        color: var(--black);
         right: -11px;
         top: 50%;
         transform: translateY(-50%);

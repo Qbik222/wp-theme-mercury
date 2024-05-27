@@ -1,6 +1,6 @@
 .contacts{
   padding: 50px  0;
-  background: $white-bg;
+  background: var(--white-bg);
   &__row{
     display: flex;
   }
@@ -16,7 +16,7 @@
       font-family: var(--font-title);
       font-size: 24px;
       line-height: 36px;
-      color: $black;
+      color: var(--black);
       margin: 0 0 10px 0;
     }
     &-text{
@@ -30,7 +30,7 @@
       font-family: var(--font-title);
       font-size: 17px;
       line-height: 25px;
-      color: $black;
+      color: var(--black);
       margin: 0 0 15px 0;
     }
     &-list{
@@ -59,7 +59,7 @@
         font-family: var(--font-title);
         font-size: 15px;
         line-height: 20px;
-        color: $black;
+        color: var(--black);
         text-decoration: underline;
       }
 
@@ -118,7 +118,7 @@
       text-align: center;
       font-size: 24px;
       line-height: 36px;
-      color: $black;
+      color: var(--black);
       margin: 0 0 15px 0;
     }
     &-item{
@@ -138,16 +138,16 @@
     &-input{
       display: inline-block;
       width: 100%;
-      background: $white-bg;
+      background: var(--white-bg);
       border-radius: 8px;
       padding: 10px 20px 8px;
       font-size: 15px;
       line-height: 30px;
-      color: $black;
+      color: var(--black);
       &::placeholder{
         font-size: 15px;
         line-height: 30px;
-        color: $black;
+        color: var(--black);
       }
     }
 
@@ -155,17 +155,17 @@
       resize: none;
       display: inline-block;
       width: 100%;
-      background: $white-bg;
+      background: var(--white-bg);
       border-radius: 8px;
       padding: 10px 20px 8px;
       font-size: 15px;
       line-height: 30px;
-      color: $black;
+      color: var(--black);
       height: 100%;
       &::placeholder{
         font-size: 15px;
         line-height: 30px;
-        color: $black;
+        color: var(--black);
       }
     }
 

@@ -3,6 +3,7 @@
   --font-title: "Popins-semb", sans-serif;
   --green-light: #BBFF85;
   --white: #FFFFFF;
+  --white-bg: #F3F5F6;
   --black: #0E0C14;
   --black2: #0D0F20;
   --header-input-bg: rgba(154, 94, 245, 0.15);
@@ -15,6 +16,7 @@
   --purple-grad-hover: linear-gradient(270deg, rgba(72, 51, 107, 0.5) 0%, rgba(40, 29, 59, 0.5) 100%);
   --blue-shade: #243A64;
   --blue-gray: #C1C1D4;
+  --blue: #1F4AD8;
   --gray: #8E8E98;
   --second-gray: #ECEAF0;
   --red: #C0281C;
@@ -80,13 +82,13 @@
   max-width: 70px;
   font-size: 11px;
   line-height: 14px;
-  color: #151A18;
+  color: var(--black);
 }
 .casino-review__item-title {
   font-size: 17px;
   line-height: 26px;
   letter-spacing: -0.004em;
-  color: #151A18;
+  color: var(--black);
   margin: 0 0 2px 0;
 }
 .casino-review__item-licensed {
@@ -126,7 +128,7 @@
 .casino-review__item-review-text {
   font-size: 12px;
   line-height: 12px;
-  color: #151A18;
+  color: var(--black);
 }
 .casino-review__item-review-star {
   margin: 0 10px 0 0;
@@ -143,7 +145,7 @@
 }
 .casino-review__item-item {
   padding: 8px 0;
-  border-top: 1px solid #F3F5F6;
+  border-top: 1px solid var(--white-bg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -155,13 +157,13 @@
   justify-content: space-between;
 }
 .casino-review__item-item:last-child {
-  border-bottom: 1px solid #F3F5F6;
+  border-bottom: 1px solid var(--white-bg);
 }
 .casino-review__item-item-title {
   font-size: 13px;
   line-height: 20px;
   letter-spacing: -0.004em;
-  color: #151A18;
+  color: var(--black);
   margin: 0 10px 0 0;
 }
 .casino-review__item-item-info {
@@ -169,7 +171,7 @@
   font-size: 15px;
   line-height: 22px;
   letter-spacing: -0.004em;
-  color: #151A18;
+  color: var(--black);
 }
 .casino-review__item-buttons {
   display: -webkit-box;
@@ -221,10 +223,10 @@
     gap: 10px;
   }
   .casino-review__item-item {
-    border-top: 1px solid #F3F5F6;
+    border-top: 1px solid var(--white-bg);
   }
   .casino-review__item-item:last-child, .casino-review__item-item:nth-child(3) {
-    border-bottom: 1px solid #F3F5F6;
+    border-bottom: 1px solid var(--white-bg);
   }
 }
 /*# sourceMappingURL=short3.css.map */

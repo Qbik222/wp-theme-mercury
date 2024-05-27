@@ -4,6 +4,7 @@
   --font-title: "Popins-semb", sans-serif;
   --green-light: #BBFF85;
   --white: #FFFFFF;
+  --white-bg: #F3F5F6;
   --black: #0E0C14;
   --black2: #0D0F20;
   --header-input-bg: rgba(154, 94, 245, 0.15);
@@ -16,6 +17,7 @@
   --purple-grad-hover: linear-gradient(270deg, rgba(72, 51, 107, 0.5) 0%, rgba(40, 29, 59, 0.5) 100%);
   --blue-shade: #243A64;
   --blue-gray: #C1C1D4;
+  --blue: #1F4AD8;
   --gray: #8E8E98;
   --second-gray: #ECEAF0;
   --red: #C0281C;
@@ -88,7 +90,7 @@
 .white-btn {
   font-family: var(--font-title);
   text-transform: uppercase;
-  color: #151A18;
+  color: var(--black);
   border-radius: 100px;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
@@ -103,7 +105,7 @@
 .transparent-btn {
   font-family: var(--font-title);
   text-transform: uppercase;
-  color: #151A18;
+  color: var(--black);
   border-radius: 100px;
   border: 1px solid #C2C3C4;
   -webkit-transition: background-color 0.3s ease;
@@ -143,8 +145,8 @@
   font-family: var(--font-title);
   text-transform: uppercase;
   border-radius: 100px;
-  color: #151A18;
-  background: #F3F5F6;
+  color: var(--black);
+  background: var(--white-bg);
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   -webkit-transition: background-color 0.3s ease;
@@ -304,7 +306,7 @@ picture {
 }
 .title {
   font-family: var(--font-title);
-  color: #151A18;
+  color: var(--black);
   font-size: 32px;
   line-height: 39px;
 }
@@ -326,8 +328,8 @@ body {
   font-style: normal;
   font-size: 20px;
   letter-spacing: 0.02em;
-  color: #151A18;
-  background: #F3F5F6;
+  color: var(--black);
+  background: var(--white-bg);
 }
 body._lock {
   overflow: hidden;
@@ -1067,7 +1069,7 @@ body._lock {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
 }
 .anchors__item {
-  border-bottom: 1px solid #F3F5F6;
+  border-bottom: 1px solid var(--white-bg);
 }
 .anchors__item:last-child {
   border: none;
@@ -1083,7 +1085,7 @@ body._lock {
   padding: 14px 0;
   font-size: 15px;
   line-height: 22px;
-  color: #151A18;
+  color: var(--black);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1138,7 +1140,7 @@ body._lock {
     padding: 12px 20px 10px !important;
     white-space: nowrap;
     border: 2px solid #FFFFFF;
-    color: #151A18;
+    color: var(--black);
     border-radius: 8px;
     background: #FFFFFF;
   }
@@ -1180,7 +1182,7 @@ body._lock {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: -0.01em;
-  color: #151A18;
+  color: var(--black);
   margin: 0 0 10px 0;
   text-align: center;
 }
@@ -1245,7 +1247,7 @@ body._lock {
   margin: 0 5px 0 0;
 }
 .casino-online__tabs-btn:hover {
-  color: #151A18;
+  color: var(--black);
 }
 .casino-online__tabs-btn:hover::after, .casino-online__tabs-btn:hover::before {
   opacity: 1;
@@ -1254,7 +1256,7 @@ body._lock {
   opacity: 1;
 }
 .casino-online__tabs-btn-one._active, .casino-online__tabs-btn-two._active {
-  color: #151A18;
+  color: var(--black);
 }
 .casino-online__list-one._hidden {
   display: none;
@@ -1316,7 +1318,7 @@ body._lock {
   font-size: 14px;
   line-height: 21px;
   letter-spacing: -0.004em;
-  color: #151A18;
+  color: var(--black);
 }
 .casino-online__item-reviews {
   display: -webkit-box;
@@ -1334,7 +1336,7 @@ body._lock {
   font-family: var(--font-main);
   font-size: 12px;
   line-height: 18px;
-  color: #151A18;
+  color: var(--black);
 }
 .casino-online__item-link {
   display: inline-block;
@@ -1398,7 +1400,7 @@ body._lock {
   transition: color 0.3s ease;
 }
 .casino__breadcrumbs-link:hover {
-  color: #151A18;
+  color: var(--black);
 }
 .casino__breadcrumbs-link:last-child:hover {
   color: #858585;
@@ -1466,7 +1468,7 @@ body._lock {
   font-size: 22px;
   line-height: 33px;
   margin: 0 20px 0 0;
-  color: #151A18;
+  color: var(--black);
 }
 .casino__info-licensed {
   display: -webkit-box;
@@ -1806,7 +1808,7 @@ body._lock {
 .game__text {
   font-size: 15px;
   line-height: 30px;
-  color: #151A18;
+  color: var(--black);
   margin: 0 0 20px 0;
 }
 .game__image {
@@ -1849,10 +1851,10 @@ body._lock {
   flex-direction: column;
 }
 .game__item {
-  border-top: 1px solid #F3F5F6;
+  border-top: 1px solid var(--white-bg);
   font-size: 14px;
   line-height: 20px;
-  color: #151A18;
+  color: var(--black);
   display: -ms-grid;
   display: grid;
   padding: 20px 0;

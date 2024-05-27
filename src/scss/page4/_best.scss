@@ -1,5 +1,5 @@
 .best {
-  background: $white-bg;
+  background: var(--white-bg);
   padding: 50px 0;
 
   &__all-link{
@@ -88,7 +88,7 @@
         transition: opacity $transition;
       }
       &:hover {
-        color: $black;
+        color: var(--black);
       }
       &:hover::after,
       &:hover::before{
@@ -101,7 +101,7 @@
       }
 
       &._active {
-        color: $black;
+        color: var(--black);
       }
 
     }
@@ -148,7 +148,7 @@
         max-width: 70px;
         font-size: 11px;
         line-height: 14px;
-        color: $black;
+        color: var(--black);
 
       }
     }
@@ -156,7 +156,7 @@
       font-size: 17px;
       line-height: 26px;
       letter-spacing: -0.004em;
-      color: $black;
+      color: var(--black);
       margin: 0 0 2px 0;
     }
     &-licensed{
@@ -187,7 +187,7 @@
       &-text{
         font-size: 12px;
         line-height: 12px;
-        color: $black;
+        color: var(--black);
       }
       &-star{
         margin: 0 10px 0 0;
@@ -200,18 +200,18 @@
     }
     &-item{
       padding: 8px 0;
-      border-top: 1px solid $white-bg;
+      border-top: 1px solid var(--white-bg);
       display: flex;
       align-items: center;
       justify-content: space-between;
       &:last-child{
-        border-bottom: 1px solid $white-bg;
+        border-bottom: 1px solid var(--white-bg);
       }
       &-title{
         font-size: 13px;
         line-height: 20px;
         letter-spacing: -0.004em;
-        color: $black;
+        color: var(--black);
         margin: 0 10px 0 0;
       }
       &-info{
@@ -219,7 +219,7 @@
         font-size: 15px;
         line-height: 22px;
         letter-spacing: -0.004em;
-        color: $black;
+        color: var(--black);
       }
     }
     &-buttons{
@@ -314,10 +314,10 @@
         gap: 10px;
       }
       &-item{
-        border-top: 1px solid $white-bg;
+        border-top: 1px solid var(--white-bg);
         &:last-child,
         &:nth-child(3){
-          border-bottom: 1px solid $white-bg;
+          border-bottom: 1px solid var(--white-bg);
         }
       }
     }

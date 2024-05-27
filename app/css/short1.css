@@ -3,6 +3,7 @@
   --font-title: "Popins-semb", sans-serif;
   --green-light: #BBFF85;
   --white: #FFFFFF;
+  --white-bg: #F3F5F6;
   --black: #0E0C14;
   --black2: #0D0F20;
   --header-input-bg: rgba(154, 94, 245, 0.15);
@@ -15,6 +16,7 @@
   --purple-grad-hover: linear-gradient(270deg, rgba(72, 51, 107, 0.5) 0%, rgba(40, 29, 59, 0.5) 100%);
   --blue-shade: #243A64;
   --blue-gray: #C1C1D4;
+  --blue: #1F4AD8;
   --gray: #8E8E98;
   --second-gray: #ECEAF0;
   --red: #C0281C;
@@ -33,7 +35,7 @@
 .casino-best__text {
   font-size: 15px;
   line-height: 22px;
-  color: #151A18;
+  color: var(--black);
   max-width: 940px;
   margin: 0 0 20px 0;
 }
@@ -94,7 +96,7 @@
   transition: color 0.3s ease;
 }
 .casino-best__item-sublink:hover {
-  color: #151A18;
+  color: var(--black);
 }
 .casino-best__item-wrapper {
   -webkit-box-flex: 0;
@@ -111,7 +113,7 @@
   -ms-flex-align: center;
   align-items: center;
   padding: 10px 10px 20px 10px;
-  border-bottom: 3px dotted #F3F5F6;
+  border-bottom: 3px dotted var(--white-bg);
   position: relative;
 }
 .casino-best__item-wrapper::before, .casino-best__item-wrapper::after {
@@ -119,7 +121,7 @@
   pointer-events: none;
   width: 19px;
   height: 19px;
-  background: #F3F5F6;
+  background: var(--white-bg);
   border-radius: 50%;
   right: -11px;
 }
@@ -164,7 +166,7 @@
   justify-content: center;
   font-size: 16px;
   line-height: 20px;
-  color: #151A18;
+  color: var(--black);
 }
 .casino-best__item-info {
   display: -webkit-box;
@@ -185,7 +187,7 @@
   font-size: 20px;
   line-height: 20px;
   letter-spacing: -0.004em;
-  color: #151A18;
+  color: var(--black);
   margin: 0 0 8px 0;
 }
 .casino-best__item-licensed {
@@ -347,7 +349,7 @@
   font-family: var(--font-title);
   font-size: 15px;
   line-height: 18px;
-  color: #151A18;
+  color: var(--black);
   margin: 0 0 5px 0;
 }
 .casino-best__item-coupon-subtitle {

@@ -3,6 +3,7 @@
   --font-title: "Popins-semb", sans-serif;
   --green-light: #BBFF85;
   --white: #FFFFFF;
+  --white-bg: #F3F5F6;
   --black: #0E0C14;
   --black2: #0D0F20;
   --header-input-bg: rgba(154, 94, 245, 0.15);
@@ -15,6 +16,7 @@
   --purple-grad-hover: linear-gradient(270deg, rgba(72, 51, 107, 0.5) 0%, rgba(40, 29, 59, 0.5) 100%);
   --blue-shade: #243A64;
   --blue-gray: #C1C1D4;
+  --blue: #1F4AD8;
   --gray: #8E8E98;
   --second-gray: #ECEAF0;
   --red: #C0281C;
@@ -60,13 +62,13 @@
 .casino-payments__item-title {
   font-size: 17px;
   line-height: 26px;
-  color: #151A18;
+  color: var(--black);
   margin: 0 0 2px 0;
 }
 .casino-payments__item-info {
   font-size: 13px;
   line-height: 16px;
-  color: #151A18;
+  color: var(--black);
   margin: 0 0 20px 0;
 }
 .casino-payments__item-info span {

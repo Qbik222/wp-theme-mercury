@@ -37,7 +37,7 @@
     &::placeholder{
       font-size: 15px;
       line-height: 30px;
-      color: $black;
+      color: var(--black);
     }
   }
   &__submit{

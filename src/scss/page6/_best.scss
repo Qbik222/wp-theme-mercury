@@ -1,6 +1,6 @@
 .best {
   padding: 50px 0;
-  background: $white-bg;
+  background: var(--white-bg);
 
   &__all-link{
     display: inline-block;
@@ -88,7 +88,7 @@
         transition: opacity $transition;
       }
       &:hover {
-        color: $black;
+        color: var(--black);
       }
       &:hover::after,
       &:hover::before{
@@ -101,7 +101,7 @@
       }
 
       &._active {
-        color: $black;
+        color: var(--black);
       }
 
     }
@@ -156,7 +156,7 @@
       flex-direction: column;
       align-items: center;
       padding: 10px 10px 20px 10px;
-      border-bottom: 3px dotted $white-bg;
+      border-bottom: 3px dotted var(--white-bg);
       position: relative;
       &::before,
       &::after{
@@ -164,7 +164,7 @@
         pointer-events: none;
         width: 19px;
         height: 19px;
-        background: $white-bg;
+        background: var(--white-bg);
         border-radius: 50%;
         right: -11px;
       }
@@ -212,7 +212,7 @@
       font-size: 20px;
       line-height: 20px;
       letter-spacing: -0.004em;
-      color: $black;
+      color: var(--black);
       margin: 0 0 8px 0;
     }
 
@@ -248,7 +248,7 @@
         &-text {
           font-size: 12px;
           line-height: 12px;
-          color: $black;
+          color: var(--black);
           white-space: nowrap;
         }
       }
@@ -265,7 +265,7 @@
         &-text {
           font-size: 12px;
           line-height: 12px;
-          color: $black;
+          color: var(--black);
           white-space: nowrap;
         }
       }
@@ -351,7 +351,7 @@
         font-family: var(--font-title);
         font-size: 15px;
         line-height: 18px;
-        color: $black;
+        color: var(--black);
         margin: 0 0 5px 0;
       }
 
@@ -426,7 +426,7 @@
         flex-direction: column;
         padding: 10px 10px 20px 10px;
         border-right: none;
-        border-bottom: 3px dotted $white-bg;
+        border-bottom: 3px dotted var(--white-bg);
         &::before{
           right: -20px;
           bottom: -11px;

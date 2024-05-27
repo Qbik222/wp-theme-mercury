@@ -1,6 +1,6 @@
 .bonus {
   padding: 50px 0;
-  background: $white-bg;
+  background: var(--white-bg);
 
   &__container{
     display: flex;
@@ -89,7 +89,7 @@
         transition: opacity $transition;
       }
       &:hover {
-        color: $black;
+        color: var(--black);
       }
       &:hover::after,
       &:hover::before{
@@ -102,7 +102,7 @@
       }
 
       &._active {
-        color: $black;
+        color: var(--black);
       }
 
     }
@@ -159,7 +159,7 @@
       font-size: 17px;
       line-height: 26px;
       letter-spacing: -0.004em;
-      color: $black;
+      color: var(--black);
       margin: 0 0 2px 0;
     }
     &-licensed{

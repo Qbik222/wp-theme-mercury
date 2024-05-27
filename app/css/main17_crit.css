@@ -4,6 +4,7 @@
   --font-title: "Popins-semb", sans-serif;
   --green-light: #BBFF85;
   --white: #FFFFFF;
+  --white-bg: #F3F5F6;
   --black: #0E0C14;
   --black2: #0D0F20;
   --header-input-bg: rgba(154, 94, 245, 0.15);
@@ -16,6 +17,7 @@
   --purple-grad-hover: linear-gradient(270deg, rgba(72, 51, 107, 0.5) 0%, rgba(40, 29, 59, 0.5) 100%);
   --blue-shade: #243A64;
   --blue-gray: #C1C1D4;
+  --blue: #1F4AD8;
   --gray: #8E8E98;
   --second-gray: #ECEAF0;
   --red: #C0281C;
@@ -88,7 +90,7 @@
 .white-btn {
   font-family: var(--font-title);
   text-transform: uppercase;
-  color: #151A18;
+  color: var(--black);
   border-radius: 100px;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
@@ -103,7 +105,7 @@
 .transparent-btn {
   font-family: var(--font-title);
   text-transform: uppercase;
-  color: #151A18;
+  color: var(--black);
   border-radius: 100px;
   border: 1px solid #C2C3C4;
   -webkit-transition: background-color 0.3s ease;
@@ -143,8 +145,8 @@
   font-family: var(--font-title);
   text-transform: uppercase;
   border-radius: 100px;
-  color: #151A18;
-  background: #F3F5F6;
+  color: var(--black);
+  background: var(--white-bg);
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   -webkit-transition: background-color 0.3s ease;
@@ -292,7 +294,7 @@ picture {
 }
 .title {
   font-family: var(--font-title);
-  color: #151A18;
+  color: var(--black);
   font-size: 32px;
   line-height: 39px;
 }
@@ -314,7 +316,7 @@ body {
   font-style: normal;
   font-size: 20px;
   letter-spacing: 0.02em;
-  color: #151A18;
+  color: var(--black);
   background: #FFFFFF;
 }
 body._lock {
@@ -1173,7 +1175,7 @@ body._lock {
 }
 .contacts {
   padding: 50px 0;
-  background: #F3F5F6;
+  background: var(--white-bg);
 }
 .contacts__row {
   display: -webkit-box;
@@ -1196,7 +1198,7 @@ body._lock {
   font-family: var(--font-title);
   font-size: 24px;
   line-height: 36px;
-  color: #151A18;
+  color: var(--black);
   margin: 0 0 10px 0;
 }
 .contacts__info-text {
@@ -1210,7 +1212,7 @@ body._lock {
   font-family: var(--font-title);
   font-size: 17px;
   line-height: 25px;
-  color: #151A18;
+  color: var(--black);
   margin: 0 0 15px 0;
 }
 .contacts__info-list {
@@ -1245,7 +1247,7 @@ body._lock {
   font-family: var(--font-title);
   font-size: 15px;
   line-height: 20px;
-  color: #151A18;
+  color: var(--black);
   text-decoration: underline;
 }
 .contacts__social {
@@ -1319,7 +1321,7 @@ body._lock {
   text-align: center;
   font-size: 24px;
   line-height: 36px;
-  color: #151A18;
+  color: var(--black);
   margin: 0 0 15px 0;
 }
 .contacts__form-item {
@@ -1342,74 +1344,74 @@ body._lock {
 .contacts__form-input {
   display: inline-block;
   width: 100%;
-  background: #F3F5F6;
+  background: var(--white-bg);
   border-radius: 8px;
   padding: 10px 20px 8px;
   font-size: 15px;
   line-height: 30px;
-  color: #151A18;
+  color: var(--black);
 }
 .contacts__form-input::-webkit-input-placeholder {
   font-size: 15px;
   line-height: 30px;
-  color: #151A18;
+  color: var(--black);
 }
 .contacts__form-input::-moz-placeholder {
   font-size: 15px;
   line-height: 30px;
-  color: #151A18;
+  color: var(--black);
 }
 .contacts__form-input:-ms-input-placeholder {
   font-size: 15px;
   line-height: 30px;
-  color: #151A18;
+  color: var(--black);
 }
 .contacts__form-input::-ms-input-placeholder {
   font-size: 15px;
   line-height: 30px;
-  color: #151A18;
+  color: var(--black);
 }
 .contacts__form-input::placeholder {
   font-size: 15px;
   line-height: 30px;
-  color: #151A18;
+  color: var(--black);
 }
 .contacts__form-textarea {
   resize: none;
   display: inline-block;
   width: 100%;
-  background: #F3F5F6;
+  background: var(--white-bg);
   border-radius: 8px;
   padding: 10px 20px 8px;
   font-size: 15px;
   line-height: 30px;
-  color: #151A18;
+  color: var(--black);
   height: 100%;
 }
 .contacts__form-textarea::-webkit-input-placeholder {
   font-size: 15px;
   line-height: 30px;
-  color: #151A18;
+  color: var(--black);
 }
 .contacts__form-textarea::-moz-placeholder {
   font-size: 15px;
   line-height: 30px;
-  color: #151A18;
+  color: var(--black);
 }
 .contacts__form-textarea:-ms-input-placeholder {
   font-size: 15px;
   line-height: 30px;
-  color: #151A18;
+  color: var(--black);
 }
 .contacts__form-textarea::-ms-input-placeholder {
   font-size: 15px;
   line-height: 30px;
-  color: #151A18;
+  color: var(--black);
 }
 .contacts__form-textarea::placeholder {
   font-size: 15px;
   line-height: 30px;
-  color: #151A18;
+  color: var(--black);
 }
 .contacts__form-btn {
   font-family: var(--font-title);
@@ -1537,27 +1539,27 @@ body._lock {
 .subscribe__email::-webkit-input-placeholder {
   font-size: 15px;
   line-height: 30px;
-  color: #151A18;
+  color: var(--black);
 }
 .subscribe__email::-moz-placeholder {
   font-size: 15px;
   line-height: 30px;
-  color: #151A18;
+  color: var(--black);
 }
 .subscribe__email:-ms-input-placeholder {
   font-size: 15px;
   line-height: 30px;
-  color: #151A18;
+  color: var(--black);
 }
 .subscribe__email::-ms-input-placeholder {
   font-size: 15px;
   line-height: 30px;
-  color: #151A18;
+  color: var(--black);
 }
 .subscribe__email::placeholder {
   font-size: 15px;
   line-height: 30px;
-  color: #151A18;
+  color: var(--black);
 }
 .subscribe__submit {
   padding: 12px 25px 10px;

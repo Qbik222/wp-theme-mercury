@@ -546,5 +546,21 @@
         }
       }
     }
+    &__bonus{
+      &-title{
+        font-size: 12px;
+        line-height: 12px;
+      }
+      &-subtitle{
+        font-size: 25px;
+        line-height: 32px;
+      }
+      &-text{
+        line-height: 15px
+      }
+      &-link{
+        margin-top: 5px;
+      }
+    }
   }
 }

@@ -55,7 +55,7 @@
         max-width: 70px;
         font-size: 11px;
         line-height: 14px;
-        color: $black;
+        color: var(--black);
 
       }
     }
@@ -64,7 +64,7 @@
       font-size: 17px;
       line-height: 26px;
       letter-spacing: -0.004em;
-      color: $black;
+      color: var(--black);
       margin: 0 0 2px 0;
     }
 
@@ -101,7 +101,7 @@
       &-text {
         font-size: 12px;
         line-height: 12px;
-        color: $black;
+        color: var(--black);
       }
 
       &-star {
@@ -117,20 +117,20 @@
 
     &-item {
       padding: 8px 0;
-      border-top: 1px solid $white-bg;
+      border-top: 1px solid var(--white-bg);
       display: flex;
       align-items: center;
       justify-content: space-between;
 
       &:last-child {
-        border-bottom: 1px solid $white-bg;
+        border-bottom: 1px solid var(--white-bg);
       }
 
       &-title {
         font-size: 13px;
         line-height: 20px;
         letter-spacing: -0.004em;
-        color: $black;
+        color: var(--black);
         margin: 0 10px 0 0;
       }
 
@@ -139,7 +139,7 @@
         font-size: 15px;
         line-height: 22px;
         letter-spacing: -0.004em;
-        color: $black;
+        color: var(--black);
       }
     }
 
@@ -202,11 +202,11 @@
       }
 
       &-item {
-        border-top: 1px solid $white-bg;
+        border-top: 1px solid var(--white-bg);
 
         &:last-child,
         &:nth-child(3) {
-          border-bottom: 1px solid $white-bg;
+          border-bottom: 1px solid var(--white-bg);
         }
       }
     }
