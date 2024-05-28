@@ -296,45 +296,6 @@ formPopupTwo.addEventListener("submit", event => {
 
 /***/ }),
 
-/***/ "./src/js/components/scrollTopComponent.js":
-/*!*************************************************!*\
-  !*** ./src/js/components/scrollTopComponent.js ***!
-  \*************************************************/
-/***/ (() => {
-
-const btnUp = {
-  el: document.querySelector('.footer__btn-top'),
-  show() {
-    // удалим у кнопки класс btn-up_hide
-    this.el.classList.remove('_hidden');
-  },
-  hide() {
-    // добавим к кнопке класс btn-up_hide
-    this.el.classList.add('_hidden');
-  },
-  addEventListener() {
-    // при прокрутке содержимого страницы
-    window.addEventListener('scroll', () => {
-      // определяем величину прокрутки
-      const scrollY = window.scrollY || document.documentElement.scrollTop;
-      // если страница прокручена больше чем на 400px, то делаем кнопку видимой, иначе скрываем
-      scrollY > 400 ? this.show() : this.hide();
-    });
-    // при нажатии на кнопку .btn-up
-    document.querySelector('.footer__btn-top').onclick = () => {
-      // переместим в начало страницы
-      window.scrollTo({
-        top: 0,
-        left: 0,
-        behavior: 'smooth'
-      });
-    };
-  }
-};
-btnUp.addEventListener();
-
-/***/ }),
-
 /***/ "./src/js/components/shortComponents/short1-component.js":
 /*!***************************************************************!*\
   !*** ./src/js/components/shortComponents/short1-component.js ***!
@@ -683,24 +644,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _functions_burger__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_functions_burger__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_footerCookieComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/footerCookieComponent */ "./src/js/components/footerCookieComponent.js");
 /* harmony import */ var _components_footerCookieComponent__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_components_footerCookieComponent__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_scrollTopComponent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/scrollTopComponent */ "./src/js/components/scrollTopComponent.js");
-/* harmony import */ var _components_scrollTopComponent__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_components_scrollTopComponent__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _functions_accorderon__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./functions/accorderon */ "./src/js/functions/accorderon.js");
-/* harmony import */ var _functions_accorderon__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_functions_accorderon__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _components_page3_formValid_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/page3/formValid.js */ "./src/js/components/page3/formValid.js");
-/* harmony import */ var _components_page3_formValid_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_components_page3_formValid_js__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _functions_scrollAnchors__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./functions/scrollAnchors */ "./src/js/functions/scrollAnchors.js");
-/* harmony import */ var _functions_scrollAnchors__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_functions_scrollAnchors__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _components_dynamicAdaptive_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/dynamicAdaptive.js */ "./src/js/components/dynamicAdaptive.js");
-/* harmony import */ var _components_dynamicAdaptive_js__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_components_dynamicAdaptive_js__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _components_tabsBtnNewsComponent_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/tabsBtnNewsComponent.js */ "./src/js/components/tabsBtnNewsComponent.js");
-/* harmony import */ var _components_tabsBtnNewsComponent_js__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_components_tabsBtnNewsComponent_js__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _components_shortComponents_short1_component_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/shortComponents/short1-component.js */ "./src/js/components/shortComponents/short1-component.js");
-/* harmony import */ var _components_shortComponents_short1_component_js__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_components_shortComponents_short1_component_js__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _components_shortComponents_short2_component_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/shortComponents/short2-component.js */ "./src/js/components/shortComponents/short2-component.js");
-/* harmony import */ var _components_shortComponents_short2_component_js__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_components_shortComponents_short2_component_js__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _components_shortComponents_short7_component_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/shortComponents/short7-component.js */ "./src/js/components/shortComponents/short7-component.js");
-/* harmony import */ var _components_shortComponents_short7_component_js__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_components_shortComponents_short7_component_js__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _functions_accorderon__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./functions/accorderon */ "./src/js/functions/accorderon.js");
+/* harmony import */ var _functions_accorderon__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_functions_accorderon__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_page3_formValid_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/page3/formValid.js */ "./src/js/components/page3/formValid.js");
+/* harmony import */ var _components_page3_formValid_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_components_page3_formValid_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _functions_scrollAnchors__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./functions/scrollAnchors */ "./src/js/functions/scrollAnchors.js");
+/* harmony import */ var _functions_scrollAnchors__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_functions_scrollAnchors__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_dynamicAdaptive_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/dynamicAdaptive.js */ "./src/js/components/dynamicAdaptive.js");
+/* harmony import */ var _components_dynamicAdaptive_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_components_dynamicAdaptive_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _components_tabsBtnNewsComponent_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/tabsBtnNewsComponent.js */ "./src/js/components/tabsBtnNewsComponent.js");
+/* harmony import */ var _components_tabsBtnNewsComponent_js__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_components_tabsBtnNewsComponent_js__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _components_shortComponents_short1_component_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/shortComponents/short1-component.js */ "./src/js/components/shortComponents/short1-component.js");
+/* harmony import */ var _components_shortComponents_short1_component_js__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_components_shortComponents_short1_component_js__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _components_shortComponents_short2_component_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/shortComponents/short2-component.js */ "./src/js/components/shortComponents/short2-component.js");
+/* harmony import */ var _components_shortComponents_short2_component_js__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_components_shortComponents_short2_component_js__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _components_shortComponents_short7_component_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/shortComponents/short7-component.js */ "./src/js/components/shortComponents/short7-component.js");
+/* harmony import */ var _components_shortComponents_short7_component_js__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_components_shortComponents_short7_component_js__WEBPACK_IMPORTED_MODULE_9__);
 //Реализация бургер-меню
 
 
@@ -710,8 +669,8 @@ __webpack_require__.r(__webpack_exports__);
 //Footer cookie
 
 
-//btn scrollTop
-
+// //btn scrollTop
+// import { scrollTop } from './components/scrollTopComponent';
 
 //Acordeon
 

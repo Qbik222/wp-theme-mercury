@@ -7,8 +7,8 @@ import { burger } from './functions/burger';
 //Footer cookie
 import { footerCookie } from './components/footerCookieComponent';
 
-//btn scrollTop
-import { scrollTop } from './components/scrollTopComponent';
+// //btn scrollTop
+// import { scrollTop } from './components/scrollTopComponent';
 
 //Acordeon
 import { accorderon } from './functions/accorderon';

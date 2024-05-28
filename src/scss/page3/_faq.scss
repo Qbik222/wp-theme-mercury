@@ -2,7 +2,6 @@
   padding: 30px;
   background: var(--white);
   border-radius: 2px;
-  box-shadow: $shadow-text-3;
   margin: 0 0 20px 0;
   &__title{
     text-align: start;
@@ -23,9 +22,9 @@
   align-items: center;
   font-family: var(--font-title);
   padding: 22px 55px 21px 20px;
-  background: var(--white-bg);
+  background: var(--second-gray);
   border-radius: 2px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 27px;
   color: var(--black);
   cursor: pointer;
@@ -34,12 +33,12 @@
     display: inline-block;
     position: absolute;
     content: '';
-    right: 30px;
+    right: 20px;
     width: 0;
     height: 0;
     border-style: solid;
     border-width: 0px 7px 9px;
-    border-color: transparent transparent $gray transparent;
+    border-color: transparent transparent var(--gray) transparent;
     transform: rotate(180deg);
     margin: 0 0 0 6px;
     transition: transform $transition, border-color $transition;
@@ -63,22 +62,17 @@
 }
 
 .accordion__header:hover {
-  background-color: $gray-border-menu-hover;
+  background-color: var(--blue-gray);
 }
 
-.accordion__content {
+.accordion__body {
   display: flex;
   flex-direction: column;
-  padding: 25px 35px 15px;
+  padding: 10px 20px 10px 30px;
   background: transparent;
-  p{
-    font-size: 14px;
-    line-height: 26px;
-    color: $gray;
-    &:not(:last-child){
-      margin: 0 0 20px 0;
-    }
-  }
+  color: var(--purple-gray);
+  font-size: 15px;
+  line-height: 26px;
 }
 
 .accordion__item:not(.accordion__item_show) .accordion__body {
@@ -87,7 +81,7 @@
 
 .accordion__item_show .accordion__header::after, .accordion__item_slidedown .accordion__header::after {
   transform:  rotate(0deg);
-  border-color: transparent transparent $green transparent;
+  border-color: transparent transparent var(--purple-gray) transparent;
 }
 
 
@@ -122,15 +116,10 @@
     line-height: 21px;
   }
 
-  .accordion__content {
+  .accordion__body {
     padding: 15px 15px 10px 15px;
-    p{
-      font-size: 12px;
-      line-height: 26px;
-      &:not(:last-child){
-        margin: 0 0 15px 0;
-      }
-    }
+    font-size: 12px;
+    line-height: 26px;
   }
 
 }

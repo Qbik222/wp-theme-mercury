@@ -51,7 +51,6 @@
     background: url("../img/general-block-image/faq-image.svg") no-repeat center/contain;
     display: inline-block;
   }
-
 }
 
 .accordion__item_slidedown .accordion__header,
@@ -63,20 +62,7 @@
   background-color: $gray-border-menu-hover;
 }
 
-.accordion__content {
-  display: flex;
-  flex-direction: column;
-  padding: 25px 35px 15px;
-  background: transparent;
-  p{
-    font-size: 14px;
-    line-height: 26px;
-    color: $gray;
-    &:not(:last-child){
-      margin: 0 0 20px 0;
-    }
-  }
-}
+
 
 .accordion__item:not(.accordion__item_show) .accordion__body {
   display: none;
@@ -123,17 +109,10 @@
     }
   }
 
-  .accordion__content {
+  .accordion__body {
     padding: 15px 15px 10px 15px;
-
-    p {
-      font-size: 12px;
-      line-height: 26px;
-
-      &:not(:last-child) {
-        margin: 0 0 15px 0;
-      }
-    }
+    font-size: 12px;
+    line-height: 26px;
   }
 
 }

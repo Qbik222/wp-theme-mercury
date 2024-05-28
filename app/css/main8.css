@@ -502,8 +502,6 @@
   padding: 30px;
   background: var(--white);
   border-radius: 2px;
-  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   margin: 0 0 20px 0;
 }
 .faq__title {
@@ -526,9 +524,9 @@
   align-items: center;
   font-family: var(--font-title);
   padding: 22px 55px 21px 20px;
-  background: var(--white-bg);
+  background: var(--second-gray);
   border-radius: 2px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 27px;
   color: var(--black);
   cursor: pointer;
@@ -539,12 +537,12 @@
   display: inline-block;
   position: absolute;
   content: "";
-  right: 30px;
+  right: 20px;
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 0px 7px 9px;
-  border-color: transparent transparent #858585 transparent;
+  border-color: transparent transparent var(--gray) transparent;
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -571,10 +569,10 @@
 }
 
 .accordion__header:hover {
-  background-color: #c8c8d0;
+  background-color: var(--blue-gray);
 }
 
-.accordion__content {
+.accordion__body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -582,16 +580,11 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding: 25px 35px 15px;
+  padding: 10px 20px 10px 30px;
   background: transparent;
-}
-.accordion__content p {
-  font-size: 14px;
+  color: var(--purple-gray);
+  font-size: 15px;
   line-height: 26px;
-  color: #858585;
-}
-.accordion__content p:not(:last-child) {
-  margin: 0 0 20px 0;
 }
 
 .accordion__item:not(.accordion__item_show) .accordion__body {
@@ -602,7 +595,7 @@
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   transform: rotate(0deg);
-  border-color: transparent transparent #0B764F transparent;
+  border-color: transparent transparent var(--purple-gray) transparent;
 }
 
 @media screen and (max-width: 1024px) {
@@ -632,15 +625,10 @@
     font-size: 14px;
     line-height: 21px;
   }
-  .accordion__content {
+  .accordion__body {
     padding: 15px 15px 10px 15px;
-  }
-  .accordion__content p {
     font-size: 12px;
     line-height: 26px;
-  }
-  .accordion__content p:not(:last-child) {
-    margin: 0 0 15px 0;
   }
 }
 .author {

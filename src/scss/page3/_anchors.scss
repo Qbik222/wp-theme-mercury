@@ -71,7 +71,7 @@
       border-radius: 2px;
       background: var(--white);
       &._active{
-        border: 2px solid $green;
+        border: 2px solid var(--purple);
       }
       //&::before{
       //  background: none;

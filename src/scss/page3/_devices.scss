@@ -34,3 +34,17 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .devices{
+    padding: 15px;
+    &__title{
+      margin: 0 auto 15px auto;
+    }
+    &__list{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+}

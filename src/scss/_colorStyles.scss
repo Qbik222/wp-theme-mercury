@@ -8,6 +8,28 @@
     background: #7E4ABD;
   }
 }
+.grayV1-btn{
+  background: var(--second-gray);
+  color: var(--purple);
+  border-radius: 2px;
+  text-transform: uppercase;
+  transition: background $transition;
+  &:hover{
+    background: var(--blue-gray);
+  }
+}
+
+.whiteV1-btn{
+  background: var(--white);
+  color: var(--purple);
+  border-radius: 2px;
+  text-transform: uppercase;
+  transition: background $transition;
+  &:hover{
+    background: var(--second-gray);
+  }
+}
+
 .transparent-btnV1{
   font-family: var(--font-title);
   text-transform: uppercase;
