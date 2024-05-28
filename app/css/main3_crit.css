@@ -12,6 +12,7 @@
   --purple: #9A5EF5;
   --purple2: #2C0064;
   --purple3: #6202FE;
+  --purple4: #48336B;
   --purple-dark: #13012A;
   --purple-gray: #71708D;
   --purple-grad-v1: linear-gradient(180deg, #9A5EF5 0%, #B887FF 100%);
@@ -120,6 +121,30 @@
 }
 .black-btn:hover {
   background: #1A1721;
+}
+
+.cookie-btn {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  color: var(--white);
+  text-transform: uppercase;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+.cookie-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.socialV1-btn {
+  background: var(--purple4);
+  border-radius: 8px;
+  color: var(--white);
+  text-transform: uppercase;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+.socialV1-btn:hover {
+  background: var(--purple3);
 }
 
 .burgundy-btn {
@@ -331,6 +356,10 @@ picture {
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 15px;
 }
 
 .main {
@@ -1094,15 +1123,6 @@ body._lock {
     color: var(--white);
   }
 }
-.main {
-  margin: 0 0 0 20px;
-}
-@media screen and (max-width: 1285px) {
-  .main {
-    margin: 0 15px 0 0;
-  }
-}
-
 .aside {
   min-width: 320px;
   position: relative;

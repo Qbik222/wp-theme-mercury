@@ -1,20 +1,20 @@
 .subscribe{
   padding: 70px 0 90px 0;
-  background: $green url("../img/general-block-image/subscribe/bg-sub-desc.webp") no-repeat 50% 0/cover;
+  background: var(--purple) url("../img/general-block-image/subscribe/bg-sub-desc.webp") no-repeat 50% 0/cover;
 
   &__row{
-    max-width: 580px;
+    max-width: 500px;
   }
   &__title{
     color: var(--white);
-    text-shadow: $shadow-text-2;
     margin: 0 0 10px 0;
+    font-size: 32px;
+    line-height: 32px;
   }
   &__text{
     font-size: 15px;
     line-height: 22px;
-    color: $gray-text-on-green;
-    text-shadow: $shadow-text-2;
+    color: var(--white);
     margin: 0 0 30px 0;
   }
 
@@ -27,17 +27,16 @@
   }
   &__email{
     width: 100%;
-    border-radius: 100px;
-    background: var(--white);
-    padding: 10px 19px 8px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, .2);
+    padding: 12px 20px;
     font-family: var(--font-main);
-    box-shadow: $shadow-text-2;
     font-size: 15px;
-    line-height: 30px;
+    line-height: 22px;
     &::placeholder{
       font-size: 15px;
-      line-height: 30px;
-      color: var(--black);
+      line-height: 22px;
+      color: var(--white);
     }
   }
   &__submit{
@@ -49,13 +48,13 @@
   }
   &__info{
     max-width: 490px;
-    color: $gray-text-on-green;
-    text-shadow: $shadow-text-2;
-    font-size: 13px;
-    line-height: 17px;
+    color: rgba(255, 255, 255, .5);
+    font-size: 15px;
+    line-height: 22px;
+    margin: 20px 0 0 0;
     &-link{
       font-family: var(--font-title);
-      color: $salad;
+      color: var(--white);
       white-space: nowrap;
       text-decoration: underline;
       &:hover{

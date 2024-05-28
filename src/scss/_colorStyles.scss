@@ -52,6 +52,29 @@
     background: #1A1721;
   }
 
+}
+
+.cookie-btn{
+  background: rgba(255, 255, 255, 0.10);
+  border-radius: 2px;
+  color: var(--white);
+  text-transform: uppercase;
+  transition: background $transition;
+  &:hover{
+    background: rgba(255, 255, 255, 0.30);
+  }
+
+}
+
+.socialV1-btn{
+  background: var(--purple4);
+  border-radius: 8px;
+  color: var(--white);
+  text-transform: uppercase;
+  transition: background $transition;
+  &:hover{
+    background: var(--purple3);
+  }
 
 }
 

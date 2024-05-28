@@ -40,12 +40,12 @@ body {
 // подключения компонентов страницы
 @import "general-block/header";
 
-.main{
-  margin: 0 0 0 20px;
-  @media screen and (max-width: 1285px){
-    margin: 0 15px 0 0;
-  }
-}
+//.main{
+//  margin: 0 20px;
+//  @media screen and (max-width: 1285px){
+//    margin: 0 15px;
+//  }
+//}
 
 
 .aside{
