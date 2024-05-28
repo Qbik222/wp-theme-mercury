@@ -2,7 +2,7 @@
   background: var(--white);
   padding: 30px;
   border-radius: 2px;
-  box-shadow: $shadow-text-3;
+  //box-shadow: $shadow-text-3;
   margin: 0 0 20px 0;
   display: flex;
   flex-direction: column;
@@ -14,12 +14,13 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 0 0 20px 0;
+    gap: 30px;
   }
   &__item{
     position: relative;
-    &:not(:last-child){
-      margin: 0 12px 0 0;
-    }
+    //&:not(:last-child){
+    //  margin: 0 12px 0 0;
+    //}
     &-link{
       position: absolute;
       width: 100%;
@@ -28,7 +29,7 @@
       left: 0;
     }
     &-image{
-      max-width: 265px;
+      max-width: 180px;
       margin: 0 0 10px 0;
       img{
         border-radius: 4px;

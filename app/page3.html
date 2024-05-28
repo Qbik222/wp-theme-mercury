@@ -1242,8 +1242,8 @@
       <a href="#" class="games__item-link" aria-label="game-link"></a>
       <div class="games__item-image">
         <picture>
-          <source srcset="img/page3/games/game-image.webp" type="image/webp">
-          <img loading="lazy" src="img/page3/games/game-image.jpg" width="265"
+          <source srcset="img/page3/games/game-img.webp" type="image/webp">
+          <img loading="lazy" src="img/page3/games/game-img.png" width="265"
                height="140" alt="image-casino">
         </picture>
       </div>
@@ -1254,8 +1254,8 @@
       <a href="#" class="games__item-link" aria-label="game-link"></a>
       <div class="games__item-image">
         <picture>
-          <source srcset="img/page3/games/game-image.webp" type="image/webp">
-          <img loading="lazy" src="img/page3/games/game-image.jpg" width="265"
+          <source srcset="img/page3/games/game-img.webp" type="image/webp">
+          <img loading="lazy" src="img/page3/games/game-img.png" width="265"
                height="140" alt="image-casino">
         </picture>
       </div>
@@ -1266,8 +1266,20 @@
       <a href="#" class="games__item-link" aria-label="game-link"></a>
       <div class="games__item-image">
         <picture>
-          <source srcset="img/page3/games/game-image.webp" type="image/webp">
-          <img loading="lazy" src="img/page3/games/game-image.jpg" width="265"
+          <source srcset="img/page3/games/game-img.webp" type="image/webp">
+          <img loading="lazy" src="img/page3/games/game-img.png" width="265"
+               height="140" alt="image-casino">
+        </picture>
+      </div>
+      <div class="games__item-title">Dead or Alive 2</div>
+      <div class="games__item-subtitle">Pragmatic</div>
+    </li>
+    <li class="games__item">
+      <a href="#" class="games__item-link" aria-label="game-link"></a>
+      <div class="games__item-image">
+        <picture>
+          <source srcset="img/page3/games/game-img.webp" type="image/webp">
+          <img loading="lazy" src="img/page3/games/game-img.png" width="265"
                height="140" alt="image-casino">
         </picture>
       </div>
@@ -1276,48 +1288,28 @@
     </li>
   </ul>
 </section>
-            <section class="feedback">
-    <h2 class="feedback__title title">Add your review</h2>
-    <form action="#" class="feedback__form">
-        <div class="feedback__form-wrap">
-            <label for="rating" class="feedback__form-label">How would you rate casino?</label>
-            <div class="feedback__form-select-wrap">
-                <select name="rating" id="rating" class="feedback__form-select">
-                    <option selected disabled value="">Select a rating</option>
-                    <option class="feedback__form-option" value="1">1 star</option>
-                    <option class="feedback__form-option" value="2">2 star</option>
-                    <option class="feedback__form-option" value="3">3 star</option>
-                    <option class="feedback__form-option" value="4">4 star</option>
-                    <option class="feedback__form-option" value="5">5 star</option>
-                </select>
-            </div>
-
-        </div>
-        <div class="feedback__form-wrap">
-            <label for="review-title" class="feedback__form-label">Title of your review</label>
-            <input type="text" name="review-title" id="review-title" class="feedback__form-input js-input" placeholder="Summarize your review or highlight an interesting detail">
-        </div>
-        <div class="feedback__form-wrap">
-            <label for="review-text" class="feedback__form-label">Title of your review</label>
-            <textarea id="review-text" name="review-text" class="feedback__form-textarea js-input" placeholder="Share your honest experience, and help others make better choices." ></textarea>
-        </div>
-        <div class="feedback__form-wrap">
-            <label for="review-name" class="feedback__form-label">Your name</label>
-            <input type="text" name="review-name" id="review-name" class="feedback__form-input js-input" placeholder="Display name*">
-        </div>
-        <div class="feedback__form-wrap">
-            <label for="review-email" class="feedback__form-label">Your email</label>
-            <input type="email" name="review-email" id="review-email" class="feedback__form-input js-email" placeholder="Email adress*">
-        </div>
-        <div class="feedback__form-switch">
-            <label class="toggle-switch">
-                <input type="checkbox" id="toggle" class="js-check">
-                <span class="slider"></span>
-            </label>
-            <p>By submitting your review, you accept our Terms & Conditions and Privacy Policy.</p>
-        </div>
-        <button type="submit" class="feedback__form-btn burgundy-btn">Submit your review</button>
-    </form>
+            <section class="devices">
+  <h2 class="devices__title title">Devices</h2>
+  <ul class="devices__list">
+    <li class="devices__item">
+      <div class="devices__item-icon">
+        <img src="./img/page3/devices/android-icon.svg" alt="android"/>
+      </div>
+      <h3 class="devices__item-title">Android</h3>
+    </li>
+    <li class="devices__item">
+      <div class="devices__item-icon">
+        <img src="./img/page3/devices/apple-icon.svg" alt="apple"/>
+      </div>
+      <h3 class="devices__item-title">MacOS</h3>
+    </li>
+    <li class="devices__item">
+      <div class="devices__item-icon">
+        <img src="./img/page3/devices/windows-icon.svg" alt="windows"/>
+      </div>
+      <h3 class="devices__item-title">Windows</h3>
+    </li>
+  </ul>
 </section>
             <section class="faq" id="faq">
     <div class="faq__container">
@@ -1461,6 +1453,49 @@
       </div>
     </div>
 
+</section>
+            <section class="feedback">
+    <h2 class="feedback__title title">Add your review</h2>
+    <form action="#" class="feedback__form">
+        <div class="feedback__form-wrap">
+            <label for="rating" class="feedback__form-label">How would you rate casino?</label>
+            <div class="feedback__form-select-wrap">
+                <select name="rating" id="rating" class="feedback__form-select">
+                    <option selected disabled value="">Select a rating</option>
+                    <option class="feedback__form-option" value="1">1 star</option>
+                    <option class="feedback__form-option" value="2">2 star</option>
+                    <option class="feedback__form-option" value="3">3 star</option>
+                    <option class="feedback__form-option" value="4">4 star</option>
+                    <option class="feedback__form-option" value="5">5 star</option>
+                </select>
+            </div>
+
+        </div>
+        <div class="feedback__form-wrap">
+            <label for="review-title" class="feedback__form-label">Title of your review</label>
+            <input type="text" name="review-title" id="review-title" class="feedback__form-input js-input" placeholder="Summarize your review or highlight an interesting detail">
+        </div>
+        <div class="feedback__form-wrap">
+            <label for="review-text" class="feedback__form-label">Title of your review</label>
+            <textarea id="review-text" name="review-text" class="feedback__form-textarea js-input" placeholder="Share your honest experience, and help others make better choices." ></textarea>
+        </div>
+        <div class="feedback__form-wrap">
+            <label for="review-name" class="feedback__form-label">Your name</label>
+            <input type="text" name="review-name" id="review-name" class="feedback__form-input js-input" placeholder="Display name*">
+        </div>
+        <div class="feedback__form-wrap">
+            <label for="review-email" class="feedback__form-label">Your email</label>
+            <input type="email" name="review-email" id="review-email" class="feedback__form-input js-email" placeholder="Email adress*">
+        </div>
+        <div class="feedback__form-switch">
+            <label class="toggle-switch">
+                <input type="checkbox" id="toggle" class="js-check">
+                <span class="slider"></span>
+            </label>
+            <p>By submitting your review, you accept our Terms & Conditions and Privacy Policy.</p>
+        </div>
+        <button type="submit" class="feedback__form-btn burgundy-btn">Submit your review</button>
+    </form>
 </section>
         </main>
     </div>
