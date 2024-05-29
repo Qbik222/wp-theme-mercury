@@ -43,14 +43,14 @@
 .ratings__title {
   margin: 0 0 20px 0;
 }
-.ratings__subtitle {
+.ratings h3 {
   font-family: var(--font-title);
   font-size: 20px;
   line-height: 25px;
   color: var(--black);
   margin: 0 0 15px 0;
 }
-.ratings__text {
+.ratings p {
   font-size: 16px;
   line-height: 24px;
   color: var(--purple-gray);
@@ -2302,7 +2302,7 @@ input[type=checkbox]:checked + .slider::before {
     align-items: flex-start;
     padding: 20px 15px;
     bottom: 10px;
-    width: 98%;
+    width: 100%;
   }
   .footer__cookie-text {
     font-size: 13px;
